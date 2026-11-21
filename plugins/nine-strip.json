@@ -1,0 +1,77 @@
+{
+  "id": "nine-strip",
+  "name": "Nine Strip",
+  "developer": "Aurelien Leblond",
+  "description": "Channel strip that combines several classic Airwindows processing algorithms into one mixing tool.",
+  "repo": "https://github.com/blablack/nine-strip",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "channel-strip",
+    "mixing",
+    "airwindows"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "NineStrip"
+  ],
+  "versions": [
+    {
+      "version": "0.1.6",
+      "date": "2026-09-19",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.6/NineStrip-Windows.zip",
+          "sha256": "f4910fb1f53cae45ad7cfeae0015b67ce5cedf46d1eb0bdc5e481a0524c54ed6",
+          "size": 16941131,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "NineStrip/NineStrip.clap",
+              "format": "clap"
+            },
+            {
+              "path": "NineStrip/NineStrip.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.6/NineStrip-macOS.zip",
+          "sha256": "a70cca148b7a0d491742fc9eecc7764874d831577e85fbd2b9eadfad1fb41fd3",
+          "size": 57240154,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "NineStrip/NineStrip.clap",
+              "format": "clap"
+            },
+            {
+              "path": "NineStrip/NineStrip.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.6/NineStrip-Linux.tar.gz",
+          "sha256": "6f3655d4930dccaa3e6be8c9036e0c548bb122499da15e9c8d277e6e1e96ca73",
+          "size": 33363540,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "NineStrip/NineStrip.clap",
+              "format": "clap"
+            },
+            {
+              "path": "NineStrip/NineStrip.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

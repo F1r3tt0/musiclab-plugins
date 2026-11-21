@@ -1,0 +1,76 @@
+{
+  "id": "pulteqfx",
+  "name": "PultEQFx",
+  "developer": "Simon Huber",
+  "description": "Equalizer plugin in the style of the classic Pultec passive EQ.",
+  "repo": "https://github.com/BurningTreeC/pulteqfx",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "eq",
+    "passive-eq"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "PultEQFx"
+  ],
+  "versions": [
+    {
+      "version": "0.13.0",
+      "date": "2026-10-01",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/BurningTreeC/pulteqfx/releases/download/v0.13.0/PultEQFx-windows-v0.13.0.zip",
+          "sha256": "d74d8b7821d01ca35e81cde120a13652c0b40a7367842c4eba1170f76c4ec560",
+          "size": 26153349,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PultEQFx.clap",
+              "format": "clap"
+            },
+            {
+              "path": "PultEQFx.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/BurningTreeC/pulteqfx/releases/download/v0.13.0/PultEQFx-macos-universal-v0.13.0.zip",
+          "sha256": "4920937703fa4ce36ec2b854fc168355935b9491fc886f284575625d15f5ccfd",
+          "size": 76889568,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PultEQFx.clap",
+              "format": "clap"
+            },
+            {
+              "path": "PultEQFx.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/BurningTreeC/pulteqfx/releases/download/v0.13.0/PultEQFx-linux-v0.13.0.zip",
+          "sha256": "e0ed3885c13d4d6c7edc5497f33cb5f9122090f94f6d99650a223d2045fbc8e4",
+          "size": 29176772,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PultEQFx.clap",
+              "format": "clap"
+            },
+            {
+              "path": "PultEQFx.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

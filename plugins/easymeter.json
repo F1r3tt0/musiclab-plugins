@@ -1,0 +1,52 @@
+{
+  "id": "easymeter",
+  "name": "EasyMeter",
+  "developer": "Given Borthwick",
+  "description": "Real-time audio meter with six visualisations for checking levels and signal content.",
+  "repo": "https://github.com/bgivenb/EasyMeter",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "meter",
+    "analysis"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "EasyMeter"
+  ],
+  "versions": [
+    {
+      "version": "0.2.0",
+      "date": "2026-09-04",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/bgivenb/EasyMeter/releases/download/v0.2.0/EasyMeter-0.2.0-Windows-VST3-unsigned.zip",
+          "sha256": "3cbfdf6b7d3fc48d14fd558b35bd2c383becc346a53d16281cd1c196f63c2eac",
+          "size": 3397918,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "EasyMeter.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/bgivenb/EasyMeter/releases/download/v0.2.0/EasyMeter-0.2.0-macOS-universal-VST3-unsigned.zip",
+          "sha256": "ab3e35bb4ec7fe0167cc73545e20a0e1e72eeacf2c5dc08442a817dda983551b",
+          "size": 5038384,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "EasyMeter.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://www.givenpeace.com/audio-tools"
+}

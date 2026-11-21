@@ -1,0 +1,76 @@
+{
+  "id": "gainstagefx",
+  "name": "GainStageFx",
+  "developer": "Simon Huber",
+  "description": "Gain staging effect for setting and balancing levels across a mix.",
+  "repo": "https://github.com/BurningTreeC/gainstagefx",
+  "license": "Apache-2.0",
+  "kind": "effect",
+  "tags": [
+    "gain",
+    "utility"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "GainStageFx"
+  ],
+  "versions": [
+    {
+      "version": "0.49.0",
+      "date": "2026-10-04",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/BurningTreeC/gainstagefx/releases/download/v0.49.0/GainStageFx-windows-v0.49.0.zip",
+          "sha256": "e0f18bf1b8fac38091cbf8bc85ae1fb420ef5c372f51f63371399a16257ba54d",
+          "size": 24485791,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "GainStageFx.clap",
+              "format": "clap"
+            },
+            {
+              "path": "GainStageFx.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/BurningTreeC/gainstagefx/releases/download/v0.49.0/GainStageFx-macos-universal-v0.49.0.zip",
+          "sha256": "c93293282a59b9530db083a1ddda19d9cb3251215a0b8194d3df7dea24b9086a",
+          "size": 69666792,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "GainStageFx.clap",
+              "format": "clap"
+            },
+            {
+              "path": "GainStageFx.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/BurningTreeC/gainstagefx/releases/download/v0.49.0/GainStageFx-linux-v0.49.0.zip",
+          "sha256": "ad604abf6ca45bde4594fed26b6f13b2ca3c31ebb99080b40031ba4239e33145",
+          "size": 26893208,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "GainStageFx.clap",
+              "format": "clap"
+            },
+            {
+              "path": "GainStageFx.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

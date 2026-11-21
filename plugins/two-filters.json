@@ -1,0 +1,59 @@
+{
+  "id": "two-filters",
+  "name": "Two Filters",
+  "developer": "Paul",
+  "description": "Effect with two filters you can run in series or in parallel.",
+  "repo": "https://github.com/baconpaul/two-filters",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "filter"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Two Filters"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2026-07-03",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-Windows-2026-07-03-b6d9bd3.zip",
+          "sha256": "2e0cdcfdcd922cba50cfe2ddfea25ca4f0c81c388fd64d88b1cd32e79902a75a",
+          "size": 7479362,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "installer_copy/Two Filters.clap",
+              "format": "clap"
+            },
+            {
+              "path": "installer_copy/Two Filters.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-Linux-2026-07-03-b6d9bd3.zip",
+          "sha256": "157f56f6d0fa809fbfaf204d6de35a97780a9fd43ec7ebf699791055840c662e",
+          "size": 16077592,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "two-filters_assets/Two Filters.clap",
+              "format": "clap"
+            },
+            {
+              "path": "two-filters_assets/Two Filters.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

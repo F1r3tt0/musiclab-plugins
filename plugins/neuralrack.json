@@ -1,0 +1,53 @@
+{
+  "id": "neuralrack",
+  "name": "NeuralRack",
+  "developer": "Hermann",
+  "description": "Loads neural amp models and impulse response files, for guitar amp and cabinet sounds.",
+  "repo": "https://github.com/brummer10/NeuralRack",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [
+    "guitar",
+    "amp-sim",
+    "neural",
+    "cabinet"
+  ],
+  "formats": [
+    "clap"
+  ],
+  "provides": [
+    "NeuralRack"
+  ],
+  "versions": [
+    {
+      "version": "0.4.1",
+      "date": "2026-08-03",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-clap-v0.4.1-win64.zip",
+          "sha256": "f27ae5e96da0b5cafbe8c5bee7b27340e86fced0d5aa0319f5b80da1a9bc353f",
+          "size": 3138320,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "NeuralRack-clap-v0.4.1/NeuralRack.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-clap-linux-x86_64.tar.xz",
+          "sha256": "6a696bfd88a7e3592bcbbf47c9c173b268091f3847b01a530e3494101ff16627",
+          "size": 2513940,
+          "archive": "tar.xz",
+          "bundles": [
+            {
+              "path": "NeuralRack-v0.4.1-clap/NeuralRack.clap",
+              "format": "clap"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

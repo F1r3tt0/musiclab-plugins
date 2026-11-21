@@ -1,0 +1,64 @@
+{
+  "id": "overtonium",
+  "name": "Overtonium",
+  "developer": "Benjamin Dehli",
+  "description": "Additive synthesizer with 32 sine partials, each locked to a harmonic of the played note and set from a mixer-style channel.",
+  "repo": "https://github.com/benjamindehli/overtonium",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "additive"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Overtonium"
+  ],
+  "versions": [
+    {
+      "version": "1.18.0",
+      "date": "2026-11-17",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.18.0/Overtonium-v1.18.0-Windows.zip",
+          "sha256": "1f0bfde59c09c038699b83dde29738cfc0dd356126964f508270105e43483a1f",
+          "size": 8329650,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Overtonium-v1.18.0-Windows/VST3/Overtonium.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.18.0/Overtonium-v1.18.0-macOS.zip",
+          "sha256": "e2399c616ceb057229b04780ea8fa53e83a493483ff87f4eed6f751de5ed86a3",
+          "size": 18272447,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Overtonium-v1.18.0-macOS/VST3/Overtonium.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.18.0/Overtonium-v1.18.0-Linux.zip",
+          "sha256": "0f2750fdeb07b208d55964a1d6722b79a75fe40e3da1b88911245f50c76a0093",
+          "size": 14324038,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Overtonium-v1.18.0-Linux/VST3/Overtonium.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://benjamindehli.github.io/overtonium/"
+}
