@@ -1,0 +1,80 @@
+{
+  "id": "dm-stutter",
+  "name": "dm-Stutter",
+  "developer": "Dave Mollen",
+  "description": "Stuttering delay plugin.",
+  "repo": "https://github.com/davemollen/dm-Stutter",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "delay",
+    "stutter"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-Stutter"
+  ],
+  "versions": [
+    {
+      "version": "0.1.5",
+      "date": "2026-10-31",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-windows.zip",
+          "sha256": "658f38080d743f1b762fbec139614ca976ed094d13a85a534f31847dccc35a10",
+          "size": 6745752,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Stutter-windows/dm-Stutter.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Stutter-windows/dm-Stutter.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-macos.zip",
+          "sha256": "32f9303686b46099f5f2877b8d933951b8096fa044983554fa355a1f933fcccd",
+          "size": 20206257,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Stutter-macos/dm-Stutter.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Stutter-macos/dm-Stutter.component/Contents/PlugIns/dm-Stutter.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Stutter-macos/dm-Stutter.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-ubuntu.zip",
+          "sha256": "71bf1fd80df7544f213436bfb643c99245f7af063fb508f7f40bc926f0746662",
+          "size": 7590342,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Stutter-ubuntu/dm-Stutter.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Stutter-ubuntu/dm-Stutter.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

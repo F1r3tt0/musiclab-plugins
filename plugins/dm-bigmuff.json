@@ -1,0 +1,81 @@
+{
+  "id": "dm-bigmuff",
+  "name": "dm-BigMuff",
+  "developer": "Dave Mollen",
+  "description": "Distortion plugin modelled on the Big Muff fuzz pedal.",
+  "repo": "https://github.com/davemollen/dm-BigMuff",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "fuzz",
+    "pedal"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-BigMuff"
+  ],
+  "versions": [
+    {
+      "version": "0.0.9",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-windows.zip",
+          "sha256": "af8bef6be18fa2e76561ff7b886b7737f253b3c08655a38368f8c768c9df7f83",
+          "size": 7388989,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-BigMuff-windows/dm-BigMuff.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-BigMuff-windows/dm-BigMuff.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-macos.zip",
+          "sha256": "1daa24f09ffbd87f4e936af852a4f3a0819f7e002ae4a1764453793b4eece6d6",
+          "size": 21358661,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-BigMuff-macos/dm-BigMuff.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-BigMuff-macos/dm-BigMuff.component/Contents/PlugIns/dm-BigMuff.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-BigMuff-macos/dm-BigMuff.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-ubuntu.zip",
+          "sha256": "91a3dfd9f2d6893e9d285196502015420e3fc1f8025628a0b53b74c42eac22a3",
+          "size": 8022646,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-BigMuff-ubuntu/dm-BigMuff.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-BigMuff-ubuntu/dm-BigMuff.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "disflux",
+  "name": "Disflux",
+  "developer": "Dimethoxy",
+  "description": "Phase dispersion effect for smearing and reshaping the phase of a sound.",
+  "repo": "https://github.com/Dimethoxy/Disflux",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "phase",
+    "dispersion",
+    "creative"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Disflux"
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "date": "2026-05-11",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-linux-vanilla.tar.gz",
+          "sha256": "a9fed3bcbc8356283ded649ac363bd9c763ff449ba368a86838d56d97bec5287",
+          "size": 8168965,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "Disflux.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Disflux.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://dimethoxy.com"
+}

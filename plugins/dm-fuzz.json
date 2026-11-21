@@ -1,0 +1,81 @@
+{
+  "id": "dm-fuzz",
+  "name": "dm-Fuzz",
+  "developer": "Dave Mollen",
+  "description": "Fuzz pedal plugin.",
+  "repo": "https://github.com/davemollen/dm-Fuzz",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "fuzz",
+    "distortion",
+    "pedal"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-Fuzz"
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-windows.zip",
+          "sha256": "3a3b6287c5a4b66262b276fe2afbd51a2e604314c9cf56d2af31c59a66d662da",
+          "size": 7686946,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Fuzz-windows/dm-Fuzz.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Fuzz-windows/dm-Fuzz.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-macos.zip",
+          "sha256": "3be179fe331bb79d7e5702f8ee245df3afe76325b2f1252ecfb0c2e47e0f0e42",
+          "size": 21669616,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Fuzz-macos/dm-Fuzz.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Fuzz-macos/dm-Fuzz.component/Contents/PlugIns/dm-Fuzz.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Fuzz-macos/dm-Fuzz.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-ubuntu.zip",
+          "sha256": "db56c78ab21574f5c0a0587db7a147722457e6b28aeeb2a95540af4f95477b57",
+          "size": 8316504,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Fuzz-ubuntu/dm-Fuzz.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Fuzz-ubuntu/dm-Fuzz.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

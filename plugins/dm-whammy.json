@@ -1,0 +1,80 @@
+{
+  "id": "dm-whammy",
+  "name": "dm-Whammy",
+  "developer": "Dave Mollen",
+  "description": "Pitch shifting plugin in the style of a whammy pedal.",
+  "repo": "https://github.com/davemollen/dm-Whammy",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "pitch-shift",
+    "guitar"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-Whammy"
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-windows.zip",
+          "sha256": "9e075341c87d1967db806f7013e0bf3d132cd180abe439860fcd1e3b2f394b39",
+          "size": 7405769,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Whammy-windows/dm-Whammy.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Whammy-windows/dm-Whammy.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-macos.zip",
+          "sha256": "1314ea6b23789e50e2092ba18febb770112cd24eab8be11bbb37b6ae3f64a609",
+          "size": 21399045,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Whammy-macos/dm-Whammy.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Whammy-macos/dm-Whammy.component/Contents/PlugIns/dm-Whammy.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Whammy-macos/dm-Whammy.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-ubuntu.zip",
+          "sha256": "2db6e555939e9d37dc57ad68728e7d984a1f517d8ebcc760eeeb419d887014a9",
+          "size": 8022730,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Whammy-ubuntu/dm-Whammy.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Whammy-ubuntu/dm-Whammy.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

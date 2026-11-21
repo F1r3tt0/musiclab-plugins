@@ -1,0 +1,82 @@
+{
+  "id": "dm-timewarp",
+  "name": "dm-TimeWarp",
+  "developer": "Dave Mollen",
+  "description": "Granular delay, looper and sampler plugin that can stretch audio in time.",
+  "repo": "https://github.com/davemollen/dm-TimeWarp",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "granular",
+    "delay",
+    "looper",
+    "time-stretch"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-TimeWarp"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-08-21",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-windows.zip",
+          "sha256": "faee227b8c3bd27a8745d003eb74c2ce7e0ac748d8e888e1c8c7487ffe643ca3",
+          "size": 16082246,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-TimeWarp-windows/dm-TimeWarp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-TimeWarp-windows/dm-TimeWarp.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-macos.zip",
+          "sha256": "478ec8d549f00d4e98a9997501dd6f48d5bd1aea774690fb6a4bb667f79e680a",
+          "size": 40300686,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-TimeWarp-macos/dm-TimeWarp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-TimeWarp-macos/dm-TimeWarp.component/Contents/PlugIns/dm-TimeWarp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-TimeWarp-macos/dm-TimeWarp.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-ubuntu.zip",
+          "sha256": "a08bd07619a05e35b9bf8b518dc5c5c927cd43c666578c755458936aea3d092e",
+          "size": 18331254,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-TimeWarp-ubuntu/dm-TimeWarp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-TimeWarp-ubuntu/dm-TimeWarp.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

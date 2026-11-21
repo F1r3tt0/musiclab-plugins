@@ -1,0 +1,80 @@
+{
+  "id": "dm-tubescreamer",
+  "name": "dm-TubeScreamer",
+  "developer": "Dave Mollen",
+  "description": "Overdrive plugin modelled on the Tube Screamer pedal.",
+  "repo": "https://github.com/davemollen/dm-TubeScreamer",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "overdrive",
+    "pedal"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-TubeScreamer"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-windows.zip",
+          "sha256": "c5b06135b26e30d15961ceba7f9b42cfc1c350a2b95df2b18901a3e59bab113a",
+          "size": 7368240,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-TubeScreamer-windows/dm-TubeScreamer.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-TubeScreamer-windows/dm-TubeScreamer.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-macos.zip",
+          "sha256": "37ba057b9f1f52a378b228aeb0550acd11435b98fce9ab36e874aea9319d51fa",
+          "size": 21343300,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-TubeScreamer-macos/dm-TubeScreamer.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-TubeScreamer-macos/dm-TubeScreamer.component/Contents/PlugIns/dm-TubeScreamer.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-TubeScreamer-macos/dm-TubeScreamer.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-ubuntu.zip",
+          "sha256": "c3b1466617868810fbe0d461d79d5eadaad9442ff39e1780f3c76c1ca8c335b5",
+          "size": 8003911,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-TubeScreamer-ubuntu/dm-TubeScreamer.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-TubeScreamer-ubuntu/dm-TubeScreamer.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

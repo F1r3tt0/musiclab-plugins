@@ -1,0 +1,80 @@
+{
+  "id": "dm-ds1",
+  "name": "dm-DS1",
+  "developer": "Dave Mollen",
+  "description": "Distortion plugin modelled on the Boss DS-1 pedal.",
+  "repo": "https://github.com/davemollen/dm-DS1",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "pedal"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-DS1"
+  ],
+  "versions": [
+    {
+      "version": "0.1.4",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-DS1/releases/download/v0.1.4/dm-DS1-windows.zip",
+          "sha256": "fbde5ba6730c9ed9127fdd10de0fb498f98e6da3a158e33db8a407f9e614c81a",
+          "size": 7395470,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-DS1-windows/dm-DS1.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-DS1-windows/dm-DS1.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-DS1/releases/download/v0.1.4/dm-DS1-macos.zip",
+          "sha256": "7841b324a2737eb19556d74844c807f0ec0088c7d1a41c5f3fe0331a631496d2",
+          "size": 21365563,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-DS1-macos/dm-DS1.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-DS1-macos/dm-DS1.component/Contents/PlugIns/dm-DS1.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-DS1-macos/dm-DS1.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-DS1/releases/download/v0.1.4/dm-DS1-ubuntu.zip",
+          "sha256": "601a25d3488f7c9eecd914627c0911757daa91597adf8e3e1395ea42b6c39105",
+          "size": 8026940,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-DS1-ubuntu/dm-DS1.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-DS1-ubuntu/dm-DS1.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "dm-repeat",
+  "name": "dm-Repeat",
+  "developer": "Dave Mollen",
+  "description": "Multi-tap delay plugin.",
+  "repo": "https://github.com/davemollen/dm-Repeat",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "delay",
+    "multi-tap"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-Repeat"
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-windows.zip",
+          "sha256": "bb1c904ee4b3cde265799465211c0205433982a6a7480b32a97d49bbef39c411",
+          "size": 7445798,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Repeat-windows/dm-Repeat.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Repeat-windows/dm-Repeat.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-macos.zip",
+          "sha256": "1f81b1c4700c6db4529c2c817e83f38e9dc87a2bd39fb355e3a5cb5f1b3d444d",
+          "size": 21465239,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Repeat-macos/dm-Repeat.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Repeat-macos/dm-Repeat.component/Contents/PlugIns/dm-Repeat.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Repeat-macos/dm-Repeat.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-ubuntu.zip",
+          "sha256": "0e2ee97beedb4432d0d5fbd57e0e864a8b97078471495afc0916356d345cbc8b",
+          "size": 8070817,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Repeat-ubuntu/dm-Repeat.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Repeat-ubuntu/dm-Repeat.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

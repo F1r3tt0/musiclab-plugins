@@ -1,0 +1,64 @@
+{
+  "id": "natambio-vst3",
+  "name": "NatAmbio",
+  "developer": "digitalfrost84",
+  "description": "VST3 take on the NAE and XTC ambience effects, inspired by the NatAmbio plugin.",
+  "repo": "https://github.com/digitalfrost84/NatAmbio-VST3",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "ambience",
+    "stereo",
+    "enhancer"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "NatAmbio"
+  ],
+  "versions": [
+    {
+      "version": "2026.8.10",
+      "date": "2026-08-10",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/digitalfrost84/NatAmbio-VST3/releases/download/v2026.8.10/NatAmbio-VST3-2026.8.10-win64.zip",
+          "sha256": "7ff9d9c457ed66e43b7e05acecbb79f746f49f333dc720048f9e1ee1c6088b6f",
+          "size": 2837391,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "NatAmbio.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/digitalfrost84/NatAmbio-VST3/releases/download/v2026.8.10/NatAmbio-VST3-2026.8.10-macos-universal.zip",
+          "sha256": "8f115f74306a08c7aa40fa91ff90fcaba20f376bee3b22b97c40a5ffec5433ae",
+          "size": 6592109,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "NatAmbio-VST3-2026.8.10-macos-universal/NatAmbio.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/digitalfrost84/NatAmbio-VST3/releases/download/v2026.8.10/NatAmbio-VST3-2026.8.10-linux-x86_64.zip",
+          "sha256": "81460689a36bcff8b381017a1f8a7708caa62076076f2727b5ea64f857850b22",
+          "size": 2756740,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "NatAmbio.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
