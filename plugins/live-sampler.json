@@ -1,0 +1,102 @@
+{
+  "id": "live-sampler",
+  "name": "live-sampler",
+  "developer": "Arunas Cesonis",
+  "description": "MIDI-controlled live audio sampler: record incoming audio and play it back from MIDI notes.",
+  "repo": "https://github.com/arunas-cesonis/live-sampler",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "sampler",
+    "live",
+    "midi"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Audio Sampler",
+    "PyO3 Plugin"
+  ],
+  "versions": [
+    {
+      "version": "0.0.6",
+      "date": "2025-05-24",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200512-vizia_windows.zip",
+          "sha256": "3634da1e684dfdc38d9cd954e5a9537fab820044164a9f39493e2e46021a735a",
+          "size": 18496778,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "live-sampler-2025-05-24-200512-vizia_windows/live-sampler-2025-05-24-200512-vizia_windows/Audio Sampler.clap",
+              "format": "clap"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200512-vizia_windows/live-sampler-2025-05-24-200512-vizia_windows/Audio Sampler.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200512-vizia_windows/live-sampler-2025-05-24-200512-vizia_windows/PyO3 Plugin.clap",
+              "format": "clap"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200512-vizia_windows/live-sampler-2025-05-24-200512-vizia_windows/PyO3 Plugin.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200543-macos-universal.zip",
+          "sha256": "5d7caea38b1b014aab849cb71f39e33ed5031cf92acf9f40d47c3cc63463b452",
+          "size": 27972322,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "live-sampler-2025-05-24-200543-macos-universal/live-sampler-2025-05-24-200543-macos-universal/Audio Sampler.clap",
+              "format": "clap"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200543-macos-universal/live-sampler-2025-05-24-200543-macos-universal/Audio Sampler.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200543-macos-universal/live-sampler-2025-05-24-200543-macos-universal/PyO3 Plugin.clap",
+              "format": "clap"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200543-macos-universal/live-sampler-2025-05-24-200543-macos-universal/PyO3 Plugin.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200527-vizia_ubuntu-24.04.zip",
+          "sha256": "9d17a3791a009daea7a5e753c0394f0587c9c03a2ba1216a1c9e18acf47bfda8",
+          "size": 22520041,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "live-sampler-2025-05-24-200527-vizia_ubuntu-24.04/live-sampler-2025-05-24-200527-vizia_ubuntu-24.04/Audio Sampler.clap",
+              "format": "clap"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200527-vizia_ubuntu-24.04/live-sampler-2025-05-24-200527-vizia_ubuntu-24.04/Audio Sampler.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200527-vizia_ubuntu-24.04/live-sampler-2025-05-24-200527-vizia_ubuntu-24.04/PyO3 Plugin.clap",
+              "format": "clap"
+            },
+            {
+              "path": "live-sampler-2025-05-24-200527-vizia_ubuntu-24.04/live-sampler-2025-05-24-200527-vizia_ubuntu-24.04/PyO3 Plugin.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

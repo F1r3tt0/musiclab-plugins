@@ -1,0 +1,59 @@
+{
+  "id": "classicreverb-re02",
+  "name": "ClassicReverb-RE02",
+  "developer": "AnClark Liu",
+  "description": "Reverb rebuilt by reverse engineering the Kjaerhus Classic Reverb, with its own different timbre.",
+  "repo": "https://github.com/AnClark/ClassicReverb-RE02",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "ClassicReverb-RE02"
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "date": "2026-11-10",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/AnClark/ClassicReverb-RE02/releases/download/v1.2.0/ClassicReverb-RE02-x86_64-Windows-1.2.0-a5034d20.zip",
+          "sha256": "2fe31dec7557eaf07a61d62006093461c5bba3248f4f08959acfba5d5a7f5b82",
+          "size": 8110838,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "ClassicReverb-RE02-x86_64-Windows-1.2.0-a5034d20/ClassicReverb-RE02.clap",
+              "format": "clap"
+            },
+            {
+              "path": "ClassicReverb-RE02-x86_64-Windows-1.2.0-a5034d20/ClassicReverb-RE02.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/AnClark/ClassicReverb-RE02/releases/download/v1.2.0/ClassicReverb-RE02-x86_64-Linux-1.2.0-a5034d20.zip",
+          "sha256": "3336da3c5a9643d3e8dfe044a96d8d54383866032a9196f361246684946b184b",
+          "size": 5563882,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "ClassicReverb-RE02-x86_64-Linux-1.2.0-a5034d20/ClassicReverb-RE02.clap",
+              "format": "clap"
+            },
+            {
+              "path": "ClassicReverb-RE02-x86_64-Linux-1.2.0-a5034d20/ClassicReverb-RE02.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "terrain",
+  "name": "Terrain",
+  "developer": "Aaron Anderson",
+  "description": "Wave terrain synthesizer: sound is made by moving a path across a 3D surface of wave shapes.",
+  "repo": "https://github.com/aaronaanderson/Terrain",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "wavetable"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Terrain"
+  ],
+  "versions": [
+    {
+      "version": "1.2.2",
+      "date": "2024-11-01",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Windows.zip",
+          "sha256": "214e68cff03bb8a9dc9219698bb827554a0f3aaa58329bdfbb054fc3573194c3",
+          "size": 6277710,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Terrain_1.2.2_Windows/Terrain.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Terrain_1.2.2_Windows/Terrain.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Linux.tar.gz",
+          "sha256": "0039004fc91161ac1b7a5429b2aaebffc8cb41b9106b2c076e5cee5dad6922c6",
+          "size": 6792615,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "Terrain_1.2.2_Linux/Terrain.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Terrain_1.2.2_Linux/Terrain.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
