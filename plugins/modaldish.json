@@ -1,0 +1,65 @@
+{
+  "id": "modaldish",
+  "name": "ModalDish",
+  "developer": "Olivier DoarÃ©",
+  "description": "Physical model of a plate of arbitrary shape, solved with finite elements.",
+  "repo": "https://github.com/odoare/ModalDish",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "physical-modeling",
+    "modal",
+    "percussion"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "ModalDish"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-09-05",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/odoare/ModalDish/releases/download/v0.1.0/ModalDish-0.1.0-windows-x86_64.zip",
+          "sha256": "521d8a030163b60cfd2e0b35e916409cc8cceb67f082e1cfece73c5d77e623cc",
+          "size": 27579861,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "ModalDish.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/odoare/ModalDish/releases/download/v0.1.0/ModalDish-0.1.0-macOS.zip",
+          "sha256": "03f40a0ea10e9344bfb629afca4cfeec63dee65b036485fa6d61cb45000da28b",
+          "size": 78499584,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "ModalDish.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/odoare/ModalDish/releases/download/v0.1.0/ModalDish-0.1.0-linux-x86_64.zip",
+          "sha256": "ef3f6dd436392ef9b2359b6d01d448de0051549012b0f71f5b681a6003b81f2c",
+          "size": 27040907,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "ModalDish.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://fx-mechanics.com"
+}
