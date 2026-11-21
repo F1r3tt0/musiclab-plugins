@@ -1,0 +1,40 @@
+{
+  "id": "recall-sampler",
+  "name": "Recall Sampler",
+  "developer": "ummshsh",
+  "description": "Plugin that records everything it hears, so you can drag any recorded part out into your project.",
+  "repo": "https://github.com/ummshsh/Recall-Sampler",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "sampler",
+    "recorder",
+    "looper"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "RecallSampler"
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2025-08-02",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/ummshsh/Recall-Sampler/releases/download/version-1.0/RecallSampler_win64_vst3_standalone_1.0.zip",
+          "sha256": "48a1b48ce03384d4f640fc52912275963d8f293601763868dcff7b1e83de6aad",
+          "size": 5287170,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "RecallSampler.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

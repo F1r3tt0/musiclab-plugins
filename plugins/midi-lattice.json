@@ -1,0 +1,45 @@
+{
+  "id": "midi-lattice",
+  "name": "Midi Lattice",
+  "developer": "Yan Han",
+  "description": "MIDI visualiser with flexible tuning options, showing notes on a lattice.",
+  "repo": "https://github.com/yan-h/midi_lattice",
+  "license": "MIT",
+  "kind": "midi",
+  "tags": [
+    "visualizer",
+    "tuning",
+    "microtonal"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Midi Lattice"
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "date": "2025-03-16",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/yan-h/midi_lattice/releases/download/v0.1.1/OSX.zip",
+          "sha256": "b540947d25f4ea192dd74c62f4badeb17d04ff4adcc71652e7dd8c0e014ac593",
+          "size": 7053748,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Midi Lattice.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Midi Lattice.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "noise-suppression-for-voice",
+  "name": "Noise Suppression for Voice",
+  "developer": "Danylo",
+  "description": "Noise suppression for voice, built on the RNNoise neural network.",
+  "repo": "https://github.com/werman/noise-suppression-for-voice",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "noise-reduction",
+    "voice",
+    "rnnoise"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "rnnoise"
+  ],
+  "versions": [
+    {
+      "version": "1.10",
+      "date": "2024-05-18",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
+          "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
+          "size": 37740885,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "win-rnnoise/rnnoise.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/macos-rnnoise.zip",
+          "sha256": "53c41fe3ce8af529b1d2d18802ecbd7e9f0b6d7ad013fd5f92f6af974472a9e9",
+          "size": 81797637,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "macos-rnnoise/rnnoise.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/linux-rnnoise.zip",
+          "sha256": "811390b6eb6e28dde023c70590c74d26e74ebb2e595bcf4b95af2341db160e99",
+          "size": 36831356,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "linux-rnnoise/rnnoise.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

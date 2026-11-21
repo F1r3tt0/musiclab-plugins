@@ -1,0 +1,39 @@
+{
+  "id": "spekana-audio-plugin",
+  "name": "SPEKANA",
+  "developer": "Yvonne Yuan",
+  "description": "Real-time audio to MIDI conversion.",
+  "repo": "https://github.com/yvonneQAQ/spekana-audio-plugin",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "audio-to-midi",
+    "transcription"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "SPEKANA"
+  ],
+  "versions": [
+    {
+      "version": "2.0.0",
+      "date": "2026-11-10",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v2.0.0/SPEKANA_v2.0.0_macOS.zip",
+          "sha256": "16101b3c06e8c30f19d14601c9dba7f99a55ae098053978df4ab66fd486b1d97",
+          "size": 3662164,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "SPEKANA.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "dcoffsetter",
+  "name": "DCOffsetter",
+  "developer": "Kazuma Narita",
+  "description": "Removes or adds DC offset in an audio signal.",
+  "repo": "https://github.com/wheatBread1306/DCOffsetter",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "dc-offset",
+    "utility"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "DCOffsetter"
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "date": "2026-05-15",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/wheatBread1306/DCOffsetter/releases/download/1.0.1/DCOffsetter_win64_1.0.1.zip",
+          "sha256": "3aae5e64f8a186973ffab7434f68787b148ce30c2462630220bce612c5811983",
+          "size": 2458337,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "DCOffsetter.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://wheatbread.dev/"
+}

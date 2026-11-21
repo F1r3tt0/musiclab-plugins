@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 
 from common import (PLUGINS_DIR, ApiError, archive_kind, asset_score, bundle_roots,
@@ -58,7 +59,7 @@ def build_version(release: dict, repo: str, max_bytes: int) -> dict:
         assets[plat] = entry
     if not assets:
         raise ApiError("no usable assets")
-    return {"version": tag.lstrip("vV"), "date": release["published_at"][:10], "assets": assets}
+    return {"version": re.sub(r"^[vV](?=\d)", "", tag), "date": release["published_at"][:10], "assets": assets}
 
 
 def main() -> int:
