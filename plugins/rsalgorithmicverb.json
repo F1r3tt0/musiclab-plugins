@@ -1,0 +1,64 @@
+{
+  "id": "rsalgorithmicverb",
+  "name": "RS Algorithmic Verb",
+  "developer": "Reilly Spitzfaden",
+  "description": "Retro algorithmic reverb with several algorithms, including emulations of classic hardware reverbs.",
+  "repo": "https://github.com/reillypascal/RSAlgorithmicVerb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb",
+    "retro",
+    "algorithmic"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "RSAlgorithmicVerb"
+  ],
+  "versions": [
+    {
+      "version": "0.5.5",
+      "date": "2025-08-01",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-Windows.zip",
+          "sha256": "71374af2c7038d795c452782ccd0e4a5a224c2d05b216a29bc19c0f0c2808216",
+          "size": 2715682,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "RSAlgorithmicVerb-v0.5.5-Windows/RSAlgorithmicVerb.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-macOS.zip",
+          "sha256": "ed18948fd51537b49c09ad8caa03bf2ea98bfaf673ccf95cbfe7102f8892a1de",
+          "size": 12638320,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "RSAlgorithmicVerb-v0.5.5-macOS/RSAlgorithmicVerb.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-Linux.zip",
+          "sha256": "b6c53dbee900aa4f0c9082ada4ce57dd1ba4048a35ff91a1acb1f1fbfa1a368e",
+          "size": 2105359,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "RSAlgorithmicVerb-v0.5.5-Linux/RSAlgorithmicVerb.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

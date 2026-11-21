@@ -1,0 +1,65 @@
+{
+  "id": "firefly-synth-2",
+  "name": "Firefly Synth 2",
+  "developer": "Sjoerd van Kreel",
+  "description": "Semi-modular synthesizer and effect plugin.",
+  "repo": "https://github.com/sjoerdvankreel/firefly-synth-2",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "semi-modular",
+    "fx"
+  ],
+  "formats": [
+    "clap"
+  ],
+  "provides": [
+    "FireflySynth2"
+  ],
+  "versions": [
+    {
+      "version": "2.1.7",
+      "date": "2026-11-06",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-windows-clap-Release.zip",
+          "sha256": "3c5205ee449e2141d32c00399a966b44f1c2fba6ca36616febe88c74095478e4",
+          "size": 11446094,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "FireflySynth2.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-clap-Release.zip",
+          "sha256": "430617358f9a8cd2b064a16ff037bd6b44643049fabcfe8aa769db0596938ad2",
+          "size": 15695983,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "FireflySynth2.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-linux-clap-Release.zip",
+          "sha256": "7bcb77b3ad7c1bbd068b7088718d3ff36244145a8ac9a94fbd314b7141993069",
+          "size": 12050095,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "FireflySynth2.clap",
+              "format": "clap"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://firefly-synth.com/"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "qpitch",
+  "name": "QPitch",
+  "developer": "Austin A.",
+  "description": "Autotune plugin for pitch-correcting vocals.",
+  "repo": "https://github.com/Skynse/qpitch",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "autotune",
+    "pitch-correction",
+    "vocal"
+  ],
+  "formats": [
+    "clap"
+  ],
+  "provides": [
+    "QPitch"
+  ],
+  "versions": [
+    {
+      "version": "2.1",
+      "date": "2026-11-05",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Skynse/qpitch/releases/download/v2.1/QPitch-v2.1-windows-clap.zip",
+          "sha256": "e3ae17871f09775e26eacad0362b4c8a54fedb7afdde0ebb823b093f3f41013b",
+          "size": 1640831,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "QPitch.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Skynse/qpitch/releases/download/v2.1/QPitch-v2.1-macos-universal-clap.zip",
+          "sha256": "3c6889ce477aa41cfb3a0089aed3caba8fd719282a1e5edd6abbd9ca0f50ec4e",
+          "size": 6545838,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "QPitch.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Skynse/qpitch/releases/download/v2.1/QPitch-v2.1-linux-clap.zip",
+          "sha256": "2b5fb3984a0654298d691eda352e51f473c96040e4d4afb8cbce21d55a6264d5",
+          "size": 4085905,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "QPitch.clap",
+              "format": "clap"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

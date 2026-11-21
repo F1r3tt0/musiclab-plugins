@@ -1,0 +1,40 @@
+{
+  "id": "rsbrokenmedia",
+  "name": "RS Broken Media",
+  "developer": "Reilly Spitzfaden",
+  "description": "Stereo glitch effect with tape effects, CD skips, data errors and lo-fi codecs.",
+  "repo": "https://github.com/reillypascal/RSBrokenMedia",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "glitch",
+    "lofi",
+    "tape"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "RSBrokenMedia"
+  ],
+  "versions": [
+    {
+      "version": "0.3.1",
+      "date": "2024-06-16",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/reillypascal/RSBrokenMedia/releases/download/0.3.1/RSBrokenMedia-v0.3.1-macos.zip",
+          "sha256": "971db2e41e48b2be643556a497ce1f123ec39067d1853e1b4108078b524ec9c6",
+          "size": 4323474,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "RSBrokenMedia-v0.3.1-macos/RSBrokenMedia.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dtblkfx-osx-recompiled",
+  "name": "DtBlkFx",
+  "developer": "Abhay Shukla",
+  "description": "DtBlkFx rebuilt for current Macs: FFT-based spectral effects with the original interface and presets.",
+  "repo": "https://github.com/shuklabhay/dtblkfx-osx-recompiled",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "spectral",
+    "fft",
+    "macos"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "DtBlkFx"
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-08-25",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/shuklabhay/dtblkfx-osx-recompiled/releases/download/v1.0/DtBlkFx-v1.0-macOS-universal-VST3.zip",
+          "sha256": "f4859f91f81376f1142382d4ab35b53415b91c6807b7ba3d56da9f71f6be1c39",
+          "size": 3344345,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "DtBlkFx.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://github.com/shuklabhay/dtblkfx-osx-recompiled/releases/latest"
+}

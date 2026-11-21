@@ -1,0 +1,45 @@
+{
+  "id": "deepfilternet3-vst3",
+  "name": "DeepFilterNet3",
+  "developer": "Shuichi",
+  "description": "Noise suppression using the DeepFilterNet3 neural network, for clean speech.",
+  "repo": "https://github.com/Shuichi346/DeepFilterNet3-VST3",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "noise-reduction",
+    "neural",
+    "voice"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "deepfilter-vst"
+  ],
+  "versions": [
+    {
+      "version": "0.7.0",
+      "date": "2026-09-26",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Shuichi346/DeepFilterNet3-VST3/releases/download/v0.7.0/DeepFilterNR-v0.7.0-macos-arm64.zip",
+          "sha256": "0589d9e42dd6532c45adfe6d519ec36229a80c1315f40aa847ea4b37958969a4",
+          "size": 88209537,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "DeepFilterNR-v0.7.0-macos-arm64/Plugins/deepfilter-vst.clap",
+              "format": "clap"
+            },
+            {
+              "path": "DeepFilterNR-v0.7.0-macos-arm64/Plugins/deepfilter-vst.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
