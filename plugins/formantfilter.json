@@ -1,0 +1,52 @@
+{
+  "id": "formantfilter",
+  "name": "FormantFilter",
+  "developer": "mogesystem",
+  "description": "Formant filter that shapes sound into vowels.",
+  "repo": "https://github.com/Mg32/FormantFilter",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "filter",
+    "formant",
+    "vowel"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "formantfilter"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2026-05-17",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Mg32/FormantFilter/releases/download/v1.0.0/formantfilter-windows-x64.zip",
+          "sha256": "49d66a1c0361333d3930bbfe4135d05895d62c59b0d1f8a5ac2d8f5a7778590e",
+          "size": 1609201,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "formantfilter-windows-x64/formantfilter.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Mg32/FormantFilter/releases/download/v1.0.0/formantfilter-macos-universal.zip",
+          "sha256": "3fc315a752e4f8f9fa7d47edd058ab050290c4a0554c3005bfd7265e5ff10dd5",
+          "size": 1542224,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "formantfilter-macos-universal/formantfilter.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

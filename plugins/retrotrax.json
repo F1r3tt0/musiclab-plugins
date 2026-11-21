@@ -1,0 +1,79 @@
+{
+  "id": "retrotrax",
+  "name": "Mukkemann RetroTrax",
+  "developer": "Mukkemann1972",
+  "description": "Tracker plugin in a ProTracker style, with Commodore 64 SID and Amiga sample sounds.",
+  "repo": "https://github.com/Mukkemann1972/retrotrax",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "tracker",
+    "c64",
+    "sid",
+    "amiga"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Mukkemann RetroTrax"
+  ],
+  "versions": [
+    {
+      "version": "0.92.0",
+      "date": "2026-08-25",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-Windows-0.92.0.zip",
+          "sha256": "a922cfe140b5b259514f2311a371890cbd02fc1801913335eee6b7dd495308ba",
+          "size": 14053305,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Mukkemann RetroTrax.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Mukkemann RetroTrax.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-macOS-0.92.0.zip",
+          "sha256": "92ef45b5f501836453af80eb138de52970651df0fda4e6f4b113fc1e71fe6b55",
+          "size": 19739801,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/Mukkemann RetroTrax.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/Mukkemann RetroTrax.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-Linux-0.92.0.zip",
+          "sha256": "ca56f748d19f0027d1471d8cd00fd078ef47165064ae18d267f53b41188cb9fd",
+          "size": 24508071,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/Mukkemann RetroTrax.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/Mukkemann RetroTrax.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://mukkemann.printvision-future.de"
+}

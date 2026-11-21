@@ -92,5 +92,14 @@
   { "repo": "Lubba-64/node_sound", "reason": "repository is archived" },
   { "repo": "lucianoiam/castello", "reason": "no release in the last three years (latest 2022-12-09)" },
   { "repo": "lucianoiam/consul", "reason": "no release in the last three years (latest 2022-12-09)" },
-  { "repo": "lukemcraig/DAFx19-Gamelanizer", "reason": "no release in the last three years (latest 2019-07-13)" }
+  { "repo": "lukemcraig/DAFx19-Gamelanizer", "reason": "no release in the last three years (latest 2019-07-13)" },
+  { "repo": "markwilkins/midi-chord-reader", "reason": "latest release ships installers only (.pkg)" },
+  { "repo": "michael-jan/key-repeat", "reason": "no release in the last three years (latest 2020-01-07)" },
+  { "repo": "michaelwillis/dragonfly-reverb", "reason": "no release in the last three years (latest 2023-04-23)" },
+  { "repo": "MikeMorenoDSP/EP-MK1", "reason": "no release in the last three years (latest 2020-09-29)" },
+  { "repo": "Mrugalla/Absorbiere", "reason": "latest release ships installers only (.dmg)" },
+  { "repo": "Mrugalla/Hammer-and-Meiszel", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .dmg, .zip, .so)" },
+  { "repo": "Mrugalla/Xen", "reason": "latest release ships installers only (.pkg)" },
+  { "repo": "nikhilunni/demucs-rs", "reason": "latest release has no downloadable assets" },
+  { "repo": "olegkapitonov/KPP-VST3", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .bz2)" }
 ]

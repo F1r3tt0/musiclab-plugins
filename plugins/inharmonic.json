@@ -1,0 +1,40 @@
+{
+  "id": "inharmonic",
+  "name": "Inharmonic",
+  "developer": "mogesystem",
+  "description": "Synthesizer for metallic sounds, based on a piano inharmonicity model.",
+  "repo": "https://github.com/Mg32/Inharmonic",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "metallic",
+    "physical-modeling"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Inharmonic"
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "date": "2026-05-08",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Mg32/Inharmonic/releases/download/v1.0.1/Inharmonic_vst3_windows_x64.zip",
+          "sha256": "6055cc427575d6b57e3c72021b1091096e16db88cf9bbef09a34c6d43cd9c7ca",
+          "size": 2140807,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Inharmonic.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

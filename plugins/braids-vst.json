@@ -1,0 +1,64 @@
+{
+  "id": "braids-vst",
+  "name": "Braids",
+  "developer": "masseyis",
+  "description": "Polyphonic port of the Mutable Instruments Braids macro oscillator.",
+  "repo": "https://github.com/masseyis/braids-vst",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "oscillator",
+    "eurorack"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "BraidsVST"
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "date": "2025-12-01",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-Windows.zip",
+          "sha256": "8f5b43c4fe5f315ad0ff2e5085532a70480154f859a8ae7007a3bd7526272e40",
+          "size": 5190200,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "BraidsVST.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-macOS.zip",
+          "sha256": "c2a7d82045ee61e845586397b4043546d8700abab4aa3b76db95b399371259f3",
+          "size": 12464114,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "BraidsVST.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-Linux.tar.gz",
+          "sha256": "2bda403cc1f272fd6b1d1fd740fb93b5b61fd031993883d66b84f8cf44b85242",
+          "size": 4163638,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "BraidsVST.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "tear",
+  "name": "TeAr",
+  "developer": "Olivier DoarÃ©",
+  "description": "Text arpeggiator: type text to generate arpeggios.",
+  "repo": "https://github.com/odoare/TeAr",
+  "license": "LGPL-3.0",
+  "kind": "midi",
+  "tags": [
+    "arpeggiator",
+    "text",
+    "midi"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "TeAr"
+  ],
+  "versions": [
+    {
+      "version": "0.5.0",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/odoare/TeAr/releases/download/v0.5.0/TeAr-Windows-x86_64.zip",
+          "sha256": "5fe009d26e565e0d2bfb73dd7577ae21d2688d8337a1f966fe5e27e7ba11328c",
+          "size": 9517824,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/TeAr.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/TeAr.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/odoare/TeAr/releases/download/v0.5.0/TeAr-macOS-universal.zip",
+          "sha256": "98c9508b5f775a27ee0ce1de016ed448955cfdaf36f30e58cff7a03f3e887af1",
+          "size": 20262830,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/TeAr.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/TeAr.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/odoare/TeAr/releases/download/v0.5.0/TeAr-Linux-x86_64.zip",
+          "sha256": "3cb214c04c0b46715c8891698d9ba651c9a8535361751d992ca286cd537f1ad7",
+          "size": 8528081,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/TeAr.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/TeAr.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/odoare/TeAr/releases/download/v0.5.0/TeAr-Linux-arm64.zip",
+          "sha256": "3514c2a083fb17237eec00612d9d7b5914dc19e3dc315bd782e0ccd833e48885",
+          "size": 8574433,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/TeAr.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/TeAr.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://fx-mechanics.com/"
+}
