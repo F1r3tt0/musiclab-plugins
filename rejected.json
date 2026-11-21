@@ -63,5 +63,12 @@
   { "repo": "FigBug/SN76489", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
   { "repo": "FigBug/Voc", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
   { "repo": "FigBug/Wavetable", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
-  { "repo": "gbevin/ShowMIDI", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" }
+  { "repo": "gbevin/ShowMIDI", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "GuitarML/Chameleon", "reason": "latest release ships installers only (.exe, .deb, .dmg)" },
+  { "repo": "GuitarML/PrincePedal", "reason": "latest release ships installers only (.exe, .deb, .dmg)" },
+  { "repo": "GuitarML/Proteus", "reason": "latest release ships installers only (.exe, .deb, .dmg)" },
+  { "repo": "GuitarML/SmartGuitarAmp", "reason": "latest release ships installers only (.exe, .deb, .dmg)" },
+  { "repo": "GuitarML/SmartGuitarPedal", "reason": "latest release ships installers only (.exe, .deb, .dmg)" },
+  { "repo": "hotwatermorning/wahwth", "reason": "no release in the last three years (latest 2020-06-05)" },
+  { "repo": "gPTPPs/UB_Poly16", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" }
 ]

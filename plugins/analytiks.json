@@ -1,0 +1,64 @@
+{
+  "id": "analytiks",
+  "name": "Analytiks",
+  "developer": "Gandalf the grey",
+  "description": "Spectral and stereo analyzer with OpenGL display, a free take on a well-known analyser.",
+  "repo": "https://github.com/Harsha-vardhan-R/Analytiks",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "analyzer",
+    "spectrum",
+    "stereo"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Analytiks"
+  ],
+  "versions": [
+    {
+      "version": "1.7.0",
+      "date": "2026-03-15",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Harsha-vardhan-R/Analytiks/releases/download/v1.7.0/Analytiks-Windows.zip",
+          "sha256": "3cc757b251793692ca74271ae8e74dab9a77b91ffd5d3e758f683fa719f67330",
+          "size": 4185848,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Analytiks.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Harsha-vardhan-R/Analytiks/releases/download/v1.7.0/Analytiks-macOS.zip",
+          "sha256": "b99d08af83d9b4c676a9e96b844a579a0e237525a8a04d8e20bf655178b90ab6",
+          "size": 7935273,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Analytiks.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Harsha-vardhan-R/Analytiks/releases/download/v1.7.0/Analytiks-Linux.zip",
+          "sha256": "cc12aadb1a0e644e386cc3b64573a1e00474cee9a700d9585e39ddca7beba0d9",
+          "size": 11226806,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Analytiks.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

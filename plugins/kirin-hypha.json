@@ -1,0 +1,46 @@
+{
+  "id": "kirin-hypha",
+  "name": "Kirin Hypha",
+  "developer": "heyalohaloha",
+  "description": "Loudness meter that lets you compare before and after processing at matched loudness, even blind.",
+  "repo": "https://github.com/heyalohaloha/kirin_hypha",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "meter",
+    "loudness",
+    "ab-testing"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "POST Kirin Hypha",
+    "PRE Kirin Hypha"
+  ],
+  "versions": [
+    {
+      "version": "1.1.58",
+      "date": "2026-11-20",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/heyalohaloha/kirin_hypha/releases/download/v1.1.58/Kirin-Hypha-1.1.58-macOS-Universal.zip",
+          "sha256": "cd640373ad39bf9aacd0b4e4f0b6461f8f4ea7ea11fd179aba02a4462ccfb9a1",
+          "size": 124917970,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Kirin Hypha 1.1.58/VST3/POST Kirin Hypha.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Kirin Hypha 1.1.58/VST3/PRE Kirin Hypha.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://kirinmastering.com/hypha"
+}

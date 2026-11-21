@@ -1,0 +1,40 @@
+{
+  "id": "punkboost",
+  "name": "Punk Boost",
+  "developer": "Guillermo MoÃ±ino CÃ¡novas",
+  "description": "Bass preamp pedal-style boost effect.",
+  "repo": "https://github.com/gmoican/PunkBoost",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "bass",
+    "boost",
+    "pedal"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Punk Boost"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2024-03-27",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/gmoican/PunkBoost/releases/download/0.1.0/Punk.Boost-0.1.0-Windows.zip",
+          "sha256": "984b2382406008ae01b78bb3ac42a31024aa79b7c6eec8a47e08c72d6f52b12e",
+          "size": 1462912,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Contents/x86_64-win/Punk Boost.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

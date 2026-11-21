@@ -1,0 +1,78 @@
+{
+  "id": "squelchbox",
+  "name": "Squelchbox",
+  "developer": "Vlad",
+  "description": "Emulation of the Roland TB-303 bass line synthesizer.",
+  "repo": "https://github.com/Hornfisk/squelchbox",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "bass",
+    "tb-303"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "squelchbox"
+  ],
+  "versions": [
+    {
+      "version": "0.2.0",
+      "date": "2026-04-19",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Hornfisk/squelchbox/releases/download/v0.2.0/squelchbox-windows-x86_64.zip",
+          "sha256": "41b40a2069a9821f38b6c993ab761b967c719ba4ea3a96e15ff660624049b459",
+          "size": 6945028,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "squelchbox.clap",
+              "format": "clap"
+            },
+            {
+              "path": "squelchbox.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/Hornfisk/squelchbox/releases/download/v0.2.0/squelchbox-macos-arm64.zip",
+          "sha256": "d66f5762931d4f98c4e416827dec91eebdaaf40be7e0cb549c52fccd3ed274fd",
+          "size": 7110875,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "squelchbox.clap",
+              "format": "clap"
+            },
+            {
+              "path": "squelchbox.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Hornfisk/squelchbox/releases/download/v0.2.0/squelchbox-linux-x86_64.tar.gz",
+          "sha256": "12a84b1c28d743c94203fd9be9447fac91a23622f13a1601bb4a65bc46864b59",
+          "size": 8319747,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "squelchbox.clap",
+              "format": "clap"
+            },
+            {
+              "path": "squelchbox.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://hornfisk.github.io/squelchbox/"
+}
