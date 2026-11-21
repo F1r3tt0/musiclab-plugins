@@ -1,0 +1,41 @@
+{
+  "id": "aelapse",
+  "name": "Aelapse",
+  "developer": "smiarx",
+  "description": "Tape delay and spring reverb effect.",
+  "repo": "https://github.com/smiarx/aelapse",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "delay",
+    "reverb",
+    "tape",
+    "spring"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Aelapse"
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "date": "2026-02-22",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/smiarx/aelapse/releases/download/v1.0.1/Aelapse-Linux.zip",
+          "sha256": "9e6726d09c2d0cd49d8d4a9f45757dec2913e0ec4003ebd5aa4a0bef149cec77",
+          "size": 3257006,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/Aelapse.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -113,5 +113,13 @@
   { "repo": "quamplex/entropictron", "reason": "latest release ships installers only (.exe)" },
   { "repo": "quamplex/geonkick", "reason": "latest release ships installers only (.exe)" },
   { "repo": "raphaelradna/xenos", "reason": "no release in the last three years (latest 2023-03-30)" },
-  { "repo": "pixelsncodes/lumen", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" }
+  { "repo": "pixelsncodes/lumen", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" },
+  { "repo": "rodrigodzf/NeuralResonatorVST", "reason": "no release in the last three years (latest 2023-03-23)" },
+  { "repo": "sdatkinson/NeuralAmpModelerPlugin", "reason": "latest release has no downloadable assets" },
+  { "repo": "SessionLoops/PitchNet", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .run, .exe, .pkg)" },
+  { "repo": "sfztools/sfizz-ui", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .pkg, .exe, .gz)" },
+  { "repo": "shaduzlabs/throb", "reason": "no release in the last three years (latest 2017-04-20)" },
+  { "repo": "sjoerdvankreel/firefly-synth", "reason": "latest release has no downloadable assets" },
+  { "repo": "sonosaurus/sonobus", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "Speechrezz/Le-Phonk", "reason": "latest release ships installers only (.exe, .pkg)" }
 ]
