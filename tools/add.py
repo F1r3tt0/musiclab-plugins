@@ -46,8 +46,8 @@ def build_version(release: dict, repo: str, max_bytes: int) -> dict:
             roots = bundle_roots(names)
             entry["bundles"] = [{"path": p, "format": f} for p, f in roots]
             if not roots:
-                print("    warning: no .vst3 / .clap found in this archive; is it the right asset?",
-                      file=sys.stderr)
+                print("    skipped: no .vst3 / .clap found in this archive", file=sys.stderr)
+                continue
         if not entry["bundles"] and entry["archive"] == "dmg":
             print("    skipped: a .dmg cannot be listed or unpacked by Music Lab; "
                   "list a zip / tar asset for this platform if the project has one", file=sys.stderr)

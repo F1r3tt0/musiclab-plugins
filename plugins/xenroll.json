@@ -1,0 +1,64 @@
+{
+  "id": "xenroll",
+  "name": "XenRoll",
+  "developer": "Andrew Kotov",
+  "description": "Microtonal piano roll plugin: draw notes in any tuning and send them to a synth as MIDI.",
+  "repo": "https://github.com/Ankalot/XenRoll",
+  "license": "GPL-3.0",
+  "kind": "midi",
+  "tags": [
+    "piano-roll",
+    "microtonal",
+    "midi"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "XenRoll"
+  ],
+  "versions": [
+    {
+      "version": "0.4.3",
+      "date": "2026-06-12",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_windows.zip",
+          "sha256": "d253afe732525d6442da59647b0f712b1a258901775b4bfb48c1751b1eff09c8",
+          "size": 5213242,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "XenRoll_v0.4.3_VST3_windows/XenRoll.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_macOS_arm64.zip",
+          "sha256": "14fa911ce57c7f40643c39b9d45302854103fec3f68879015991cbf127b10399",
+          "size": 2739819,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "XenRoll_v0.4.3_VST3_macOS_arm64/XenRoll.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_linux_x86_64.zip",
+          "sha256": "6fce73b34afcfe14bbaaff9e72b43cf52c92cf429e1f78b6f24d837d553ce527",
+          "size": 3481536,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "XenRoll_v0.4.3_VST3_linux_x86_64/XenRoll.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

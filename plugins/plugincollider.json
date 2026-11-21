@@ -1,0 +1,64 @@
+{
+  "id": "plugincollider",
+  "name": "plugincollider",
+  "developer": "Pascal Gauthier",
+  "description": "Runs SuperCollider inside a VST3 plugin so synths and effects written in SuperCollider code can be used in a DAW.",
+  "repo": "https://github.com/asb2m10/plugincollider",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "supercollider",
+    "synth",
+    "scripting"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "PluginCollider"
+  ],
+  "versions": [
+    {
+      "version": "0.5.2",
+      "date": "2026-11-03",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.2/PluginCollider-0.5.2-win.zip",
+          "sha256": "676f8f240c021f7612c5f19ca9cfac7aedca5d3ca9cf5d9fe0ba8f0019640b53",
+          "size": 7775197,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PluginCollider.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.2/PluginCollider-0.5.2-macOS.zip",
+          "sha256": "49add09a9f45adc1e89b3fd3754c2e3d47bf6c0a28fb7c11f92642641e32f215",
+          "size": 5277392,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PluginCollider.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.2/PluginCollider-0.5.2-lnx.zip",
+          "sha256": "37e8a1e1fb8549d7fbbbf017cf67197a2135de75fabb88e5e217e2bfc036156f",
+          "size": 7920988,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PluginCollider.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

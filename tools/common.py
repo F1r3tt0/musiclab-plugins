@@ -71,7 +71,7 @@ def guess_platform(name: str) -> str | None:
     n = re.sub(r"[^a-z0-9]+", " ", name.lower())
     toks = set(n.split())
     arm = any(t.startswith(("arm", "aarch")) for t in toks) or "apple silicon" in n
-    if re.search(r"\b(armhf|riscv64|i686|i386|x86|win32|wasm|ppc64le)\b", n):
+    if re.search(r"\b(armhf|riscv64|i686|i386|x86(?! 64)|win32|wasm|ppc64le)\b", n):
         return None
     if toks & {"win", "win64", "windows", "w64", "msvc"}:
         return None if arm else "windows-x64"
@@ -94,7 +94,7 @@ def candidate_assets(assets: list[dict]) -> dict[str, list[dict]]:
         low = name.lower()
         if INSTALLER_RE.search(low) or archive_kind(name) is None:
             continue
-        if re.search(r"(source|[-_.]src[-_.]|setup|install|wasm|android|symbols|debug|docs?[-_.])", low):
+        if re.search(r"(source|[-_.]src[-_.]|setup|install|wasm|android|symbols|dsyms?|debug|docs?[-_.])", low):
             continue
         plat = guess_platform(name)
         if plat:
@@ -235,6 +235,8 @@ def bundle_roots(names: list[str]) -> list[tuple[str, str]]:
     found: dict[str, str] = {}
     for n in names:
         parts = n.strip("/").split("/")
+        if parts[0] == "__MACOSX":
+            continue
         for i, p in enumerate(parts):
             pl = p.lower()
             if pl.endswith(".vst3") or pl.endswith(".clap"):

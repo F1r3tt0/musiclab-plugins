@@ -1,0 +1,77 @@
+{
+  "id": "actuate",
+  "name": "Actuate",
+  "developer": "ardura",
+  "description": "Synthesizer, sampler and granulizer in one plugin, written in Rust with nih-plug.",
+  "repo": "https://github.com/ardura/Actuate",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "sampler",
+    "granular"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Actuate"
+  ],
+  "versions": [
+    {
+      "version": "1.4.5",
+      "date": "2026-04-15",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/ardura/Actuate/releases/download/v1.4.5/Actuate_v145_windows_build.zip",
+          "sha256": "cc841cd30e808e85ca8d91f0daefc8ada8d6be5b5f7f697e7bb7edd5739c3aac",
+          "size": 8334394,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Actuate.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Actuate.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/ardura/Actuate/releases/download/v1.4.5/Actuate_v145_macos_build.zip",
+          "sha256": "eba1617094fb2a04447e0feaf39480b6144ec3c0ed5e26636b1b719c100cb361",
+          "size": 8584452,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Actuate.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Actuate.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/ardura/Actuate/releases/download/v1.4.5/Actuate_v145_linux_build.zip",
+          "sha256": "00fbd335884bad1b83189fb3b04c65c25ebd0736bff881d2914249f10863901a",
+          "size": 9391468,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Actuate.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Actuate.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

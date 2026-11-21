@@ -1,0 +1,60 @@
+{
+  "id": "minaton-xt",
+  "name": "Minaton XT",
+  "developer": "AnClark Liu",
+  "description": "Analogue-style synthesizer with a warm, beefy sound.",
+  "repo": "https://github.com/AnClark/Minaton-XT",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "analog"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "minaton"
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "date": "2026-11-13",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/AnClark/Minaton-XT/releases/download/v1.2.0/minaton-x86_64-Windows-1.2.0-40f89ffe.zip",
+          "sha256": "9cd7a111f7aa2af9ec069cbf43de8e242ad3f3ce3b01a1b0ff4ca56283e80eb2",
+          "size": 13202644,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "minaton-x86_64-Windows-1.2.0-40f89ffe/minaton.clap",
+              "format": "clap"
+            },
+            {
+              "path": "minaton-x86_64-Windows-1.2.0-40f89ffe/minaton.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/AnClark/Minaton-XT/releases/download/v1.2.0/minaton-x86_64-Linux-1.2.0-40f89ffe.zip",
+          "sha256": "762e47dd0ac1e35913a0243734ddd3ffa39d42abc4bf14be6b79da8588cad848",
+          "size": 14914639,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "minaton-x86_64-Linux-1.2.0-40f89ffe/minaton.clap",
+              "format": "clap"
+            },
+            {
+              "path": "minaton-x86_64-Linux-1.2.0-40f89ffe/minaton.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
