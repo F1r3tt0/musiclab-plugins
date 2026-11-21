@@ -1,0 +1,49 @@
+{
+  "id": "chorusexmachina",
+  "name": "Chorus Ex Machina",
+  "developer": "Peter Eastman",
+  "description": "Chorus synthesizer that models the sound of a choir.",
+  "repo": "https://github.com/peastman/ChorusExMachina",
+  "license": "LGPL-2.1",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "chorus",
+    "choir"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Chorus Ex Machina"
+  ],
+  "versions": [
+    {
+      "version": "1.3",
+      "date": "2026-04-05",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-mac-arm.zip",
+          "sha256": "5962558a4313eb1c018ee50c45476a1bd62a08d387aaa86c51519a0b56261c9a",
+          "size": 11767212,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Chorus Ex Machina.component/Contents/PlugIns/Chorus Ex Machina.clap",
+              "format": "clap"
+            },
+            {
+              "path": "chorus_ex_machina.clap",
+              "format": "clap"
+            },
+            {
+              "path": "chorus_ex_machina.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

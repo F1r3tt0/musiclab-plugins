@@ -1,0 +1,142 @@
+{
+  "id": "sox-plugins",
+  "name": "SoX Plugins",
+  "developer": "Prof. Spock",
+  "description": "Plugin versions of SoX effects: chorus and echo, compander, filter, flanger/phaser/tremolo, gain, overdrive and reverb.",
+  "repo": "https://github.com/prof-spock/SoX-Plugins",
+  "license": "MIT",
+  "kind": "bundle",
+  "tags": [
+    "sox",
+    "effects",
+    "filters"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "SoXChorusAndEcho",
+    "SoXCompander",
+    "SoXFilter",
+    "SoXFlangerPhaserAndTremolo",
+    "SoXGain",
+    "SoXOverdrive",
+    "SoXReverb"
+  ],
+  "versions": [
+    {
+      "version": "0.98",
+      "date": "2026-11-20",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/prof-spock/SoX-Plugins/releases/download/v0.98/SoXPlugins-Windows-AMD64.zip",
+          "sha256": "9c642453fe48d4257b08e7296ab84f4e8a2787c0ee442959694bb6127227f7d5",
+          "size": 15786645,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "programs/VST3/SoXChorusAndEcho.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXCompander.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXFilter.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXFlangerPhaserAndTremolo.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXGain.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXOverdrive.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXReverb.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/prof-spock/SoX-Plugins/releases/download/v0.98/SoXPlugins-Darwin-x86_64%2Barm64.zip",
+          "sha256": "55febaf67f779c2a4ce3cc33d6eca7e210f9f85b57c80dff5d907aee1dcc6daf",
+          "size": 114274447,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "programs/VST3/SoXChorusAndEcho.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXCompander.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXFilter.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXFlangerPhaserAndTremolo.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXGain.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXOverdrive.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXReverb.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/prof-spock/SoX-Plugins/releases/download/v0.98/SoXPlugins-Linux-x86_64.zip",
+          "sha256": "4a086da626911cd402abd3d83199ca098bfd4d5f99bd8056aeb4d37ab627a34b",
+          "size": 31980606,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "programs/VST3/SoXChorusAndEcho.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXCompander.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXFilter.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXFlangerPhaserAndTremolo.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXGain.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXOverdrive.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "programs/VST3/SoXReverb.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

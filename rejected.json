@@ -101,5 +101,17 @@
   { "repo": "Mrugalla/Hammer-and-Meiszel", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .dmg, .zip, .so)" },
   { "repo": "Mrugalla/Xen", "reason": "latest release ships installers only (.pkg)" },
   { "repo": "nikhilunni/demucs-rs", "reason": "latest release has no downloadable assets" },
-  { "repo": "olegkapitonov/KPP-VST3", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .bz2)" }
+  { "repo": "olegkapitonov/KPP-VST3", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .bz2)" },
+  { "repo": "pauljonescodes/beat-md", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "pierreguillot/Camomile", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .zip)" },
+  { "repo": "polygon/mucap", "reason": "latest release ships installers only (.deb)" },
+  { "repo": "POTR-Soft/Chord-Filter", "reason": "no release in the last three years (latest 2021-11-08)" },
+  { "repo": "pschaupp/spectral-abyss-multiband-saturation", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .zip)" },
+  { "repo": "publicsamples/Oi-Grandad", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "publicsamples/Quetzalcoatl", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "publicsamples/Shapey", "reason": "repository is archived" },
+  { "repo": "quamplex/entropictron", "reason": "latest release ships installers only (.exe)" },
+  { "repo": "quamplex/geonkick", "reason": "latest release ships installers only (.exe)" },
+  { "repo": "raphaelradna/xenos", "reason": "no release in the last three years (latest 2023-03-30)" },
+  { "repo": "pixelsncodes/lumen", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" }
 ]

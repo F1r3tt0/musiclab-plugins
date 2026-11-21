@@ -1,0 +1,40 @@
+{
+  "id": "kholorsstation",
+  "name": "Kholors Station",
+  "developer": "Quentin FAIDIDE",
+  "description": "Sends each track's audio to the Kholors Station window, a live colour-coded spectrogram of all your tracks together.",
+  "repo": "https://github.com/QuentinFAIDIDE/KholorsStation",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "spectrogram",
+    "analyzer",
+    "multi-track"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "KholorsSink"
+  ],
+  "versions": [
+    {
+      "version": "1.28.0",
+      "date": "2026-11-01",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/QuentinFAIDIDE/KholorsStation/releases/download/v1.28.0/kholors_macos_v1.28.0.zip",
+          "sha256": "071b83dbca1c8564cc7b9ba809ff9124dff978345bee21a03160867d0996b3ef",
+          "size": 15172776,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Library/Audio/Plug-Ins/VST3/KholorsSink.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
