@@ -1,0 +1,39 @@
+{
+  "id": "punkeq",
+  "name": "Punk EQ",
+  "developer": "Guillermo MoÃ±ino CÃ¡novas",
+  "description": "Equalizer pedal-style EQ plugin.",
+  "repo": "https://github.com/gmoican/PunkEq",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "eq",
+    "pedal"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Punk EQ"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2024-04-04",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/gmoican/PunkEq/releases/download/0.1.0/Punk.EQ-0.1.0-Windows.zip",
+          "sha256": "3f54d5c4b02cbf4c8398db05684cb679e17e6e2b5972f4d107bf6898078e27d6",
+          "size": 1508836,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Contents/x86_64-win/Punk EQ.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
