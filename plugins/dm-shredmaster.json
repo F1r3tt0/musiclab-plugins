@@ -1,0 +1,81 @@
+{
+  "id": "dm-shredmaster",
+  "name": "dm-Shredmaster",
+  "developer": "Dave Mollen",
+  "description": "Distortion plugin modelled on the Shredmaster guitar pedal.",
+  "repo": "https://github.com/davemollen/dm-Shredmaster",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "pedal",
+    "guitar"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-Shredmaster"
+  ],
+  "versions": [
+    {
+      "version": "0.1.3",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-windows.zip",
+          "sha256": "28b5c46d0e3fb6aa7cec4768e479c01faf5a5390652924974390e07a7d23ba82",
+          "size": 7355354,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Shredmaster-windows/dm-Shredmaster.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Shredmaster-windows/dm-Shredmaster.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-macos.zip",
+          "sha256": "eef4fc8366257c3211e59bbc3f90c23382bcb32d0fbb63267a76bf1379831b53",
+          "size": 21384387,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Shredmaster-macos/dm-Shredmaster.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Shredmaster-macos/dm-Shredmaster.component/Contents/PlugIns/dm-Shredmaster.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Shredmaster-macos/dm-Shredmaster.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-ubuntu.zip",
+          "sha256": "ade06537f4640afd1480f819ae1d6953f8ca166b907a68227de147c03e65fad1",
+          "size": 7982188,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Shredmaster-ubuntu/dm-Shredmaster.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Shredmaster-ubuntu/dm-Shredmaster.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -43,6 +43,9 @@ def build_version(release: dict, repo: str, max_bytes: int) -> dict:
         if names is None:
             print("    note: cannot list this archive; fill in `bundles` by hand", file=sys.stderr)
         else:
+            if any("\\" in n for n in names):
+                print("    skipped: archive entries use Windows backslash paths", file=sys.stderr)
+                continue
             roots = bundle_roots(names)
             entry["bundles"] = [{"path": p, "format": f} for p, f in roots]
             if not roots:

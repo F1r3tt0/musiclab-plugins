@@ -1,0 +1,79 @@
+{
+  "id": "dm-reverb",
+  "name": "dm-Reverb",
+  "developer": "Dave Mollen",
+  "description": "Reverb plugin.",
+  "repo": "https://github.com/davemollen/dm-Reverb",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "reverb"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-Reverb"
+  ],
+  "versions": [
+    {
+      "version": "0.1.7",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Reverb/releases/download/v0.1.7/dm-Reverb-windows.zip",
+          "sha256": "48acd18a605bf6a4dcbf40e61e5a711f5fefed7663406444ba7031cd0a7f9462",
+          "size": 6881051,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Reverb-windows/dm-Reverb.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Reverb-windows/dm-Reverb.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Reverb/releases/download/v0.1.7/dm-Reverb-macos.zip",
+          "sha256": "0e0a36a7926bdb0ba447e19dbbf8c1006934a6d7910dd2040fc7d9d6b2de3b86",
+          "size": 20187965,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Reverb-macos/dm-Reverb.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Reverb-macos/dm-Reverb.component/Contents/PlugIns/dm-Reverb.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Reverb-macos/dm-Reverb.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Reverb/releases/download/v0.1.7/dm-Reverb-ubuntu.zip",
+          "sha256": "076b130547a74980b2a3383771fbdaa26b962a38c2447c1a309b87d73dd03813",
+          "size": 7695515,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Reverb-ubuntu/dm-Reverb.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Reverb-ubuntu/dm-Reverb.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

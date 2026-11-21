@@ -49,5 +49,9 @@
   { "repo": "cjitter/JCBTransient", "reason": "latest release ships installers only (.dmg)" },
   { "repo": "CoconutAudio/Sound-of-Music", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .tar)" },
   { "repo": "DamRsn/NeuralNote", "reason": "latest release ships installers only (.exe, .pkg)" },
-  { "repo": "darilin98/visimusic", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" }
+  { "repo": "darilin98/visimusic", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "DirektDSP/Chasm", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "DISTRHO/Ildaeil", "reason": "no release in the last three years (latest 2023-07-15)" },
+  { "repo": "DoomyDwyer/ASPiKProjects", "reason": "no release in the last three years (latest 2022-04-26)" },
+  { "repo": "doxiedevops/CrushClone", "reason": "latest release ships installers only (.exe, .pkg)" }
 ]

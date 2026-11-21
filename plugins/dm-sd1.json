@@ -1,0 +1,80 @@
+{
+  "id": "dm-sd1",
+  "name": "dm-SD1",
+  "developer": "Dave Mollen",
+  "description": "Overdrive plugin modelled on the Boss SD-1 pedal.",
+  "repo": "https://github.com/davemollen/dm-SD1",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "overdrive",
+    "pedal"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-SD1"
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-windows.zip",
+          "sha256": "84ec74444a2b46f905635729822158db7c30da70d964de0e952fea8b59995a4b",
+          "size": 7371283,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-SD1-windows/dm-SD1.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-SD1-windows/dm-SD1.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-macos.zip",
+          "sha256": "e5e238eef29d4616b583532a7f852d7d7e687e153823689916e439aae72bc76e",
+          "size": 21338676,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-SD1-macos/dm-SD1.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-SD1-macos/dm-SD1.component/Contents/PlugIns/dm-SD1.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-SD1-macos/dm-SD1.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-ubuntu.zip",
+          "sha256": "270f611bb46c9182a16d4cb3d4f520088c41abe0a0c2269a1adda329cd18c6e4",
+          "size": 8001488,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-SD1-ubuntu/dm-SD1.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-SD1-ubuntu/dm-SD1.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

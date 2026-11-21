@@ -1,0 +1,81 @@
+{
+  "id": "dm-spaceecho",
+  "name": "dm-SpaceEcho",
+  "developer": "Dave Mollen",
+  "description": "Delay and reverb plugin in the style of a vintage tape space echo.",
+  "repo": "https://github.com/davemollen/dm-SpaceEcho",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "delay",
+    "reverb",
+    "tape-echo"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-SpaceEcho"
+  ],
+  "versions": [
+    {
+      "version": "0.1.7",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-windows.zip",
+          "sha256": "424189b54698cd7e8a9c7a2c72cf9243f144472e49825a584ee1300bfaecf67f",
+          "size": 6972782,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-SpaceEcho-windows/dm-SpaceEcho.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-SpaceEcho-windows/dm-SpaceEcho.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-macos.zip",
+          "sha256": "d942ebbfd531b7221e45305298eab795d97b1d2d7389bbcf010e4032059a870c",
+          "size": 20517476,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-SpaceEcho-macos/dm-SpaceEcho.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-SpaceEcho-macos/dm-SpaceEcho.component/Contents/PlugIns/dm-SpaceEcho.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-SpaceEcho-macos/dm-SpaceEcho.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-ubuntu.zip",
+          "sha256": "b66088e50b8acc32130663594e2cc096ba5acb7c1dea45b6d3ff35486a59e3c3",
+          "size": 7818207,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-SpaceEcho-ubuntu/dm-SpaceEcho.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-SpaceEcho-ubuntu/dm-SpaceEcho.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

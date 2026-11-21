@@ -221,7 +221,7 @@ def _list_archive(path: Path, url: str) -> list[str] | None:
     try:
         if low.endswith(".zip"):
             with zipfile.ZipFile(path) as z:
-                return z.namelist()
+                return [i.orig_filename for i in z.infolist()]  # raw names: Windows would turn backslashes into slashes
         if low.endswith((".tar.gz", ".tgz", ".tar.xz")):
             with tarfile.open(path) as t:
                 return [n[2:] if n.startswith("./") else n for n in t.getnames()]

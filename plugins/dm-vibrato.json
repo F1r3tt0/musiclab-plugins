@@ -1,0 +1,80 @@
+{
+  "id": "dm-vibrato",
+  "name": "dm-Vibrato",
+  "developer": "Dave Mollen",
+  "description": "Vibrato plugin.",
+  "repo": "https://github.com/davemollen/dm-Vibrato",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "vibrato",
+    "modulation"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "dm-Vibrato"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-10-30",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-windows.zip",
+          "sha256": "1bf0039a387504a89d83980aeded15fa0997830edc3b7c8bfc6b7333d9b99c9c",
+          "size": 7446664,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Vibrato-windows/dm-Vibrato.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Vibrato-windows/dm-Vibrato.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-macos.zip",
+          "sha256": "119c9ae94db2a6fcf98fea098305e2bdb7f645b63efca600f435ca8b2a849966",
+          "size": 21494120,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Vibrato-macos/dm-Vibrato.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Vibrato-macos/dm-Vibrato.component/Contents/PlugIns/dm-Vibrato.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Vibrato-macos/dm-Vibrato.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-ubuntu.zip",
+          "sha256": "a51eb3a1f131c2d4554a1bd11c440f88d8644fd939a6502396d4c5cc34b18d98",
+          "size": 8081103,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "dm-Vibrato-ubuntu/dm-Vibrato.clap",
+              "format": "clap"
+            },
+            {
+              "path": "dm-Vibrato-ubuntu/dm-Vibrato.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

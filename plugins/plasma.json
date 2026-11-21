@@ -1,0 +1,39 @@
+{
+  "id": "plasma",
+  "name": "Plasma",
+  "developer": "Dimethoxy",
+  "description": "Asymmetrical distortion effect.",
+  "repo": "https://github.com/Dimethoxy/Plasma",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Plasma"
+  ],
+  "versions": [
+    {
+      "version": "1.2.1",
+      "date": "2024-12-01",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-linux.tar.gz",
+          "sha256": "f61cfd287b0d58b9eca419c6c785e66a8bf94caf26b33615aa465c25bd8ee4e1",
+          "size": 7888520,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "Plasma.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://dimethoxy.com"
+}
