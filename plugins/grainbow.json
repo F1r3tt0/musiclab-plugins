@@ -1,0 +1,40 @@
+{
+  "id": "grainbow",
+  "name": "gRainbow",
+  "developer": "Strange Loops Audio",
+  "description": "Synthesizer that uses pitch detection to choose which parts of a sample to use for granular synthesis.",
+  "repo": "https://github.com/StrangeLoopsAudio/gRainbow",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "granular",
+    "pitch-detection"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "gRainbow"
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "date": "2024-02-01",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/StrangeLoopsAudio/gRainbow/releases/download/v1.0.3/gRainbow-1.0.3-Linux-patch.tar.gz",
+          "sha256": "50135b32df399d6584c76125d07f97e4e4e887690d06a1c744ab10ed59dea387",
+          "size": 71127040,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "VST3/gRainbow.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

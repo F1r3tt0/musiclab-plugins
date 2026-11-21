@@ -1,0 +1,40 @@
+{
+  "id": "nam-juce",
+  "name": "Neural Amp Modeler",
+  "developer": "Manos Labrakis",
+  "description": "JUCE version of the Neural Amp Modeler plugin for playing amp captures.",
+  "repo": "https://github.com/Tr3m/nam-juce",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "amp-sim",
+    "guitar",
+    "neural"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Neural Amp Modeler"
+  ],
+  "versions": [
+    {
+      "version": "0.5.0",
+      "date": "2026-08-23",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.5.0/nam-juce-v0.5.0-linux_x86_64.tar.gz",
+          "sha256": "1c6a4b0bf027606b8214addf6c68d9b59d43cc36cde43e14edd1a9c97d517e40",
+          "size": 16221144,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "nam-juce-v0.5.0-linux_x86_64/nam-juce/vst/Neural Amp Modeler.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
