@@ -1,0 +1,78 @@
+{
+  "id": "testtone",
+  "name": "TestTone",
+  "developer": "Jun Murakami",
+  "description": "Test tone generator for sending sine, noise and other test signals through your setup.",
+  "repo": "https://github.com/Jun-Murakami/TestTone",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "test-tone",
+    "generator",
+    "utility"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "TestTone"
+  ],
+  "versions": [
+    {
+      "version": "1.0.5",
+      "date": "2026-07-08",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Windows_VST3_AAX_CLAP_Standalone.zip",
+          "sha256": "afc7bfacfd182487f7ab2b7f09025918edc2aa50534de92d81646c1ec60e571e",
+          "size": 19935284,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "TestTone.clap",
+              "format": "clap"
+            },
+            {
+              "path": "TestTone.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+          "sha256": "e87dee623a334b30718c2afa7117cfd3d674caa8211a82417abe73b614d069fc",
+          "size": 26706688,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "TestTone.clap",
+              "format": "clap"
+            },
+            {
+              "path": "TestTone.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Linux_VST3_LV2_CLAP_Standalone.zip",
+          "sha256": "659d8b8ff533efb817ca6de7f950432225bdbafb22f769be7008153d438531a9",
+          "size": 11178853,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/TestTone.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/TestTone.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://jun-murakami.web.app/#testTone"
+}

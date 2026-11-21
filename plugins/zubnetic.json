@@ -1,0 +1,39 @@
+{
+  "id": "zubnetic",
+  "name": "Zubnetic",
+  "developer": "Jose",
+  "description": "Stereo visualiser with several drawing shapes and colours that react to frequency.",
+  "repo": "https://github.com/JoseScript/Zubnetic",
+  "license": "GPL-2.0",
+  "kind": "effect",
+  "tags": [
+    "visualizer",
+    "stereo"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Zubnetic"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2026-01-19",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/JoseScript/Zubnetic/releases/download/v1.0.0/Zubnetic-v1.0-Windows-VST3.zip",
+          "sha256": "68ba367e76a98591f3ad96d01dfb4bdc3e4b8aa284635d21ed482ec4158a80bc",
+          "size": 2756417,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Zubnetic.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

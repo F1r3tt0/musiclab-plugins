@@ -1,0 +1,51 @@
+{
+  "id": "relief-compressor",
+  "name": "Relief Compressor",
+  "developer": "Aris Kiriki-Liszt == yg331",
+  "description": "General-purpose compressor for anything from a single track to the master bus.",
+  "repo": "https://github.com/Kiriki-liszt/Relief_Compressor",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "compressor",
+    "mastering"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Relief_Compressor"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2024-10-29",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Kiriki-liszt/Relief_Compressor/releases/download/v1.0.0/Relief.Compressor.Win.v1.0.0.zip",
+          "sha256": "52843e53ea1ce98e755c64ec79858a5d5ad850a4d91645e64bf7e1dac853a7a6",
+          "size": 1332431,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Release/Relief_Compressor.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Kiriki-liszt/Relief_Compressor/releases/download/v1.0.0/Relief.Compressor.macOS.v1.0.0.zip",
+          "sha256": "d59cf67050f5c9223ae9140e435d969dee3febaeb7c334c29996d211a9c75eba",
+          "size": 3342886,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Relief_Compressor.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

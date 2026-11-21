@@ -76,5 +76,13 @@
   { "repo": "jacobweber/ostinato", "reason": "no release in the last three years (latest 2022-02-14)" },
   { "repo": "jatinchowdhury18/ChowPhaser", "reason": "no release in the last three years (latest 2021-04-23)" },
   { "repo": "jatinchowdhury18/KlonCentaur", "reason": "no release in the last three years (latest 2021-05-26)" },
-  { "repo": "JoergBitzer/JadeSpectrogram", "reason": "no release in the last three years (latest 2021-07-02)" }
+  { "repo": "JoergBitzer/JadeSpectrogram", "reason": "no release in the last three years (latest 2021-07-02)" },
+  { "repo": "jsvaldezv/banana-split", "reason": "latest release has no downloadable assets" },
+  { "repo": "jsvaldezv/duck-sampler", "reason": "latest release ships installers only (.pkg)" },
+  { "repo": "jsvaldezv/duck-synth", "reason": "latest release has no downloadable assets" },
+  { "repo": "KhanTheDaleK1/cosmic-rays", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "khrykin/BlackBird", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "killbizz/Biztortion", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "klknn/kdr", "reason": "latest release has no downloadable assets" },
+  { "repo": "kevin-jenkins/PlugNspectr", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" }
 ]
