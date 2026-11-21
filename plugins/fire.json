@@ -1,0 +1,77 @@
+{
+  "id": "fire",
+  "name": "Fire",
+  "developer": "Yifeng (Jerry)",
+  "description": "Multiband distortion plugin.",
+  "repo": "https://github.com/jerryuhoo/Fire",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "multiband"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Fire"
+  ],
+  "versions": [
+    {
+      "version": "2.1.0",
+      "date": "2026-11-15",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/jerryuhoo/Fire/releases/download/v2.1.0/Fire-2.1.0-Windows.zip",
+          "sha256": "5edba759e47b3fb808c77ccf79c542f4470d99eff0ed06ba801a0f9b1ad2e3d7",
+          "size": 25746890,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/Fire.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/Fire.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/jerryuhoo/Fire/releases/download/v2.1.0/Fire-2.1.0-macOS.zip",
+          "sha256": "cda7814a05fdf57f78497f746cba06ac0f4842ae21b61aed7eccc66dc7df11c3",
+          "size": 75253270,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/Fire.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/Fire.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/jerryuhoo/Fire/releases/download/v2.1.0/Fire-2.1.0-Linux.zip",
+          "sha256": "4acab8722a767522f5b146e68dca5dd3accc38a71171f1e708a3d317efaa33fb",
+          "size": 26623460,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/Fire.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/Fire.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://www.bluewingsmusic.com/fire.html"
+}

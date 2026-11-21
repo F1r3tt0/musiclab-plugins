@@ -1,0 +1,65 @@
+{
+  "id": "dawception",
+  "name": "DAWception",
+  "developer": "Ethan John",
+  "description": "A small DAW inside a plugin, to get around track count limits in lite DAW editions.",
+  "repo": "https://github.com/johnmanjohnston/dawception",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "multi-track",
+    "host",
+    "workflow"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "DAWception"
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "date": "2026-10-04",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/johnmanjohnston/dawception/releases/download/0.1.1/DAWception-0.1.1-Windows.zip",
+          "sha256": "cb07c82ed4bceb2b99a69fde9b2d99982d44f6f1a530ddb56f4fee1a5669e30f",
+          "size": 3809526,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "DAWception-0.1.1-Windows/DAWception.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/johnmanjohnston/dawception/releases/download/0.1.1/DAWception-0.1.1-macOS.zip",
+          "sha256": "22d727a76a6dc2d54e3dfc4de54b5b1dfb856b3ae0d53a89282809c0860e39b2",
+          "size": 6613550,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "DAWception-0.1.1-macOS/DAWception.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/johnmanjohnston/dawception/releases/download/0.1.1/DAWception-0.1.1-Linux.zip",
+          "sha256": "d2d66ff65e19223d66cdb2150e0fefd14fa921d45a9fb009270e6db2a43d80f9",
+          "size": 4009859,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "DAWception-0.1.1-Linux/DAWception.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://johnmanjohnston.github.io/dawception/"
+}

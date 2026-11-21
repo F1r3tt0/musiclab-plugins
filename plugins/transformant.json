@@ -1,0 +1,52 @@
+{
+  "id": "transformant",
+  "name": "transformant",
+  "developer": "Igor Zinken",
+  "description": "Multi-channel formant filter.",
+  "repo": "https://github.com/igorski/transformant",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "filter",
+    "formant"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "transformant"
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "date": "2026-09-01",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/igorski/transformant/releases/download/1.1.0/transformant.1.1.0_windows.zip",
+          "sha256": "f0b3394fe43c4ccdf489a22b1d625970885e2c5b409117798eb255bf8d53fa7c",
+          "size": 1954890,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Windows 64-Bit/VST3/transformant.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/igorski/transformant/releases/download/1.1.0/transformant.1.1.0_macos.zip",
+          "sha256": "0bf173764b09636fa01b15cc009bea14cf4dde5d3fb681a4255559e764a2b56c",
+          "size": 7119678,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/transformant.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://www.igorski.nl/plugins/transformant"
+}
