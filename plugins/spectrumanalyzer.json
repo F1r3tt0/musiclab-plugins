@@ -1,0 +1,39 @@
+{
+  "id": "spectrumanalyzer",
+  "name": "Spectrum",
+  "developer": "LluÃ­s EstapÃ©",
+  "description": "Real-time spectrum analyzer.",
+  "repo": "https://github.com/lluisestape-upc/SpectrumAnalyzer",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "analyzer",
+    "spectrum"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Spectrum"
+  ],
+  "versions": [
+    {
+      "version": "2.0.0",
+      "date": "2026-09-28",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/lluisestape-upc/SpectrumAnalyzer/releases/download/v2.0.0/Spectrum-2.0.0-win-x64.zip",
+          "sha256": "0088f3d1a4690bb9275e9ce05dc5d0290b31565f69e39ba8a097f430fc459738",
+          "size": 2747411,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Spectrum.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
