@@ -1,0 +1,66 @@
+{
+  "id": "midi-bpm-detection",
+  "name": "MIDI BPM Detection",
+  "developer": "Vincent Alsteen",
+  "description": "Detects the tempo of incoming MIDI notes and shows the BPM.",
+  "repo": "https://github.com/valsteen/midi_bpm_detection",
+  "license": "MIT",
+  "kind": "midi",
+  "tags": [
+    "tempo",
+    "bpm",
+    "midi",
+    "analysis"
+  ],
+  "formats": [
+    "clap"
+  ],
+  "provides": [
+    "midi-bpm-detector-plugin"
+  ],
+  "versions": [
+    {
+      "version": "0.2.0",
+      "date": "2026-07-26",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-windows-x86_64.zip",
+          "sha256": "d7dfdaf54f51578a86c2873c6740db8512b1c0ac9cc863541a3d0cf7859a9d12",
+          "size": 3130126,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "midi-bpm-detector-v0.2.0-clap-windows-x86_64/midi-bpm-detector-plugin.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-macos-arm64.zip",
+          "sha256": "ae1cad9da66c9be8ff876a442c2ac64ec4169c34cd516b3be44b17d425b7d180",
+          "size": 2889986,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "midi-bpm-detector-v0.2.0-clap-macos-arm64/midi-bpm-detector-plugin.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-linux-x86_64.zip",
+          "sha256": "01a046eb6e074caf724742bfff6c0e0e79ff4c4618e78677730b210a68caeb63",
+          "size": 3746789,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "midi-bpm-detector-v0.2.0-clap-linux-x86_64/midi-bpm-detector-plugin.clap",
+              "format": "clap"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://valsteen.github.io/midi_bpm_detection/"
+}

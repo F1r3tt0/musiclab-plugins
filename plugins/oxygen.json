@@ -1,0 +1,40 @@
+{
+  "id": "oxygen",
+  "name": "oXygen",
+  "developer": "Wamphyre",
+  "description": "Mastering plugin with a practical workflow, starting with corrective EQ.",
+  "repo": "https://github.com/Wamphyre/oXygen",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [
+    "mastering",
+    "eq",
+    "dynamics"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "oXygen"
+  ],
+  "versions": [
+    {
+      "version": "1.2.1",
+      "date": "2026-09-08",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/Wamphyre/oXygen/releases/download/v1.2.1/oXygen-1.2.1-Linux-x86_64.zip",
+          "sha256": "68bd6aa2e03b046116b6b46e873341bd2dc453e82d02c5ed024d335c2a1c760b",
+          "size": 3100739,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "oXygen.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

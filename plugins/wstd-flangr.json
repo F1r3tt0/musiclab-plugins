@@ -1,0 +1,77 @@
+{
+  "id": "wstd-flangr",
+  "name": "WSTD FLANGR",
+  "developer": "Wasted Audio",
+  "description": "Simple flanger effect.",
+  "repo": "https://github.com/Wasted-Audio/wstd-flangr",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "flanger",
+    "modulation"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "WSTD_FLANGR"
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "date": "2025-12-09",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-win64.zip",
+          "sha256": "cb36998f57a5a97c2b0d360024dfe6b623eed9312926852b2efcf60229ce539f",
+          "size": 5258651,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "wstd-flangr-v1.1.1/WSTD_FLANGR.clap",
+              "format": "clap"
+            },
+            {
+              "path": "wstd-flangr-v1.1.1/WSTD_FLANGR.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-x86_64.tar.xz",
+          "sha256": "71822bc6dccfc1ca6c830e98f1abf513a27d41739d39b14d3354633c06c09594",
+          "size": 981808,
+          "archive": "tar.xz",
+          "bundles": [
+            {
+              "path": "wstd-flangr-v1.1.1/WSTD_FLANGR.clap",
+              "format": "clap"
+            },
+            {
+              "path": "wstd-flangr-v1.1.1/WSTD_FLANGR.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-arm64.tar.xz",
+          "sha256": "ee8c3fdd1ed3bf78c13580b0c28fbf479fa820a9aefc4a93a8a5be8537039ba5",
+          "size": 902812,
+          "archive": "tar.xz",
+          "bundles": [
+            {
+              "path": "wstd-flangr-v1.1.1/WSTD_FLANGR.clap",
+              "format": "clap"
+            },
+            {
+              "path": "wstd-flangr-v1.1.1/WSTD_FLANGR.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://wasted.audio/software/wstd_flangr"
+}

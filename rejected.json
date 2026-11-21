@@ -128,5 +128,11 @@
   { "repo": "tgalpha/ActivityTimer", "reason": "no release in the last three years (latest 2022-09-05)" },
   { "repo": "Thiagohgl/DyERS-dynamic-resonance-suppressor", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
   { "repo": "tobanteAudio/modEQ", "reason": "no release in the last three years (latest 2019-05-18)" },
-  { "repo": "Uberton/Uberton", "reason": "latest release ships installers only (.exe, .pkg)" }
+  { "repo": "Uberton/Uberton", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "unicornsasfuel/whetstone", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .vst3, .pkg)" },
+  { "repo": "VirtualRaven/KandVST", "reason": "no release in the last three years (latest 2018-05-13)" },
+  { "repo": "vitling/crypt", "reason": "latest release has no downloadable assets" },
+  { "repo": "vvvar/PeakEater", "reason": "no release in the last three years (latest 2023-08-20)" },
+  { "repo": "wolf-plugins/wolf-shaper", "reason": "no release in the last three years (latest 2023-05-14)" },
+  { "repo": "yokemura/Magical8bitPlug2", "reason": "no release in the last three years (latest 2021-05-08)" }
 ]
