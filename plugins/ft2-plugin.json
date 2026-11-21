@@ -1,0 +1,65 @@
+{
+  "id": "ft2-plugin",
+  "name": "Fasttracker II",
+  "developer": "juho",
+  "description": "Fasttracker II tracker as a plugin, for making module-style music inside a DAW.",
+  "repo": "https://github.com/juho/ft2-plugin",
+  "license": "BSD-3-Clause",
+  "kind": "instrument",
+  "tags": [
+    "tracker",
+    "sampler",
+    "retro"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Fasttracker II"
+  ],
+  "versions": [
+    {
+      "version": "1.1.4",
+      "date": "2026-02-08",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-Windows.zip",
+          "sha256": "1392660e4fee984b945b6a79815b4f126ae5f3edad06dac73941ee734c151c0b",
+          "size": 2901938,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "FT2-Plugin-1.1.4-VST3-Windows/Fasttracker II.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-macOS-Legacy.zip",
+          "sha256": "1450065f64c125bcbda01d0e9ecefa295e7105f98092239f38fad4e26df41912",
+          "size": 2361738,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "FT2-Plugin-1.1.4-VST3-macOS-Legacy/Fasttracker II.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-Linux.zip",
+          "sha256": "0014eb03cf16add0f9e53582d2299b00c7de28936caa6bfae196fc0a511180be",
+          "size": 2898101,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "FT2-Plugin-1.1.4-VST3-Linux/Fasttracker II.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://blamstrain.com"
+}

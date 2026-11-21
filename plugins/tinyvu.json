@@ -1,0 +1,77 @@
+{
+  "id": "tinyvu",
+  "name": "TinyVU",
+  "developer": "Jun Murakami",
+  "description": "Very compact VU meter.",
+  "repo": "https://github.com/Jun-Murakami/TinyVU",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "meter",
+    "vu"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "TinyVU"
+  ],
+  "versions": [
+    {
+      "version": "1.0.6",
+      "date": "2026-07-08",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_VST3_AAX_CLAP_Standalone.zip",
+          "sha256": "1eacfa00195f6de96f95494c095d69909217e7af39d28baf3b22f339904db1c5",
+          "size": 19195123,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "TinyVU.clap",
+              "format": "clap"
+            },
+            {
+              "path": "TinyVU.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+          "sha256": "512c209b9e2c567e3a6678edd91034fbaed08e36fc31552982314023b0fffed7",
+          "size": 24764687,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "TinyVU.clap",
+              "format": "clap"
+            },
+            {
+              "path": "TinyVU.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Linux_VST3_LV2_CLAP_Standalone.zip",
+          "sha256": "f6bbdbe375309b2fd01c07314ea4a59ffe7c2e78b0c78509933d5dda05329816",
+          "size": 10401149,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/TinyVU.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/TinyVU.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://jun-murakami.web.app/#tinyVu"
+}
