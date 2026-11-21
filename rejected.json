@@ -36,5 +36,18 @@
   { "repo": "calgoheen/cPhaser", "reason": "latest release ships installers only (.exe, .pkg)" },
   { "repo": "calgoheen/cStop", "reason": "latest release ships installers only (.exe, .pkg)" },
   { "repo": "Chmod666music/DPF", "reason": "a plugin framework (DISTRHO Plugin Framework fork), not a plugin; the release only holds one example plugin" },
-  { "repo": "Chowdhury-DSP/CHOW", "reason": "no release in the last three years (latest 2019-01-11)" }
+  { "repo": "Chowdhury-DSP/CHOW", "reason": "no release in the last three years (latest 2019-01-11)" },
+  { "repo": "Chowdhury-DSP/ChowKick", "reason": "no release in the last three years (latest 2023-01-16)" },
+  { "repo": "Chowdhury-DSP/ChowMatrix", "reason": "no release in the last three years (latest 2021-12-21)" },
+  { "repo": "ChromaticIsobar/HyperTremolo", "reason": "no release in the last three years (latest 2022-04-05)" },
+  { "repo": "cjitter/JCBCompressor", "reason": "latest release ships installers only (.dmg)" },
+  { "repo": "cjitter/JCBDistortion", "reason": "latest release ships installers only (.dmg)" },
+  { "repo": "cjitter/JCBExpander", "reason": "latest release ships installers only (.dmg)" },
+  { "repo": "cjitter/JCBImager", "reason": "latest release ships installers only (.dmg)" },
+  { "repo": "cjitter/JCBMaximizer", "reason": "latest release ships installers only (.dmg)" },
+  { "repo": "cjitter/JCBReverb", "reason": "latest release ships installers only (.dmg)" },
+  { "repo": "cjitter/JCBTransient", "reason": "latest release ships installers only (.dmg)" },
+  { "repo": "CoconutAudio/Sound-of-Music", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .tar)" },
+  { "repo": "DamRsn/NeuralNote", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "darilin98/visimusic", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" }
 ]

@@ -235,7 +235,7 @@ def bundle_roots(names: list[str]) -> list[tuple[str, str]]:
     found: dict[str, str] = {}
     for n in names:
         parts = n.strip("/").split("/")
-        if parts[0] == "__MACOSX":
+        if parts[0] == "__MACOSX" or any(p.startswith("._") for p in parts):
             continue
         for i, p in enumerate(parts):
             pl = p.lower()
