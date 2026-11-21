@@ -1,0 +1,39 @@
+{
+  "id": "pulp-fiction",
+  "name": "Pulp Fiction",
+  "developer": "CoconutAudio",
+  "description": "Multi-effects rack plugin: chain effects such as tremolo in one window.",
+  "repo": "https://github.com/CoconutAudio/Pulp-Fiction",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "multi-fx",
+    "rack"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Pulp fiction"
+  ],
+  "versions": [
+    {
+      "version": "tremolo",
+      "date": "2024-06-23",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/CoconutAudio/Pulp-Fiction/releases/download/tremolo/Pulp_fiction_linux_vst3.zip",
+          "sha256": "101d5cd7bb53706ec4d27a377be9f61a11719cfd7a5acdb26f5e33202a95d2e1",
+          "size": 15457762,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Pulp fiction.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

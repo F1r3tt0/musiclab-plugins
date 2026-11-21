@@ -1,0 +1,65 @@
+{
+  "id": "slowsampler2",
+  "name": "SlowSampler 2",
+  "developer": "chsh2",
+  "description": "Audio plugin for tuning samples and stretching them in time, to change pitch and length independently.",
+  "repo": "https://github.com/chsh2/SlowSampler2",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "sampler",
+    "time-stretch",
+    "pitch"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "SlowSampler2FX",
+    "SlowSamplerFX"
+  ],
+  "versions": [
+    {
+      "version": "0.1",
+      "date": "2024-12-06",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/chsh2/SlowSampler2/releases/download/v0.1/SlowSampler2FX_Windows_x86-64.zip",
+          "sha256": "3c797a3578fbcaa326b221ddf2fd0ccd7c049b6e59c3ddc2b120ec7e734ebca2",
+          "size": 18663983,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "SlowSampler2FX.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/chsh2/SlowSampler2/releases/download/v0.1/SlowSampler2FX_Mac_Universal.zip",
+          "sha256": "655f176fa4d72d8004c0490e042a4911bb9fe51dd24699554fa5c42f1bf19806",
+          "size": 36985930,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "SlowSamplerFX.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/chsh2/SlowSampler2/releases/download/v0.1/SlowSampler2FX_Linux_x86-64.zip",
+          "sha256": "677445381dc091d27985420e68bcb34bbe98b7d6e56fc03e740513766ad3b364",
+          "size": 21314434,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "SlowSampler2FX.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

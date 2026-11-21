@@ -1,0 +1,41 @@
+{
+  "id": "ctrlrx",
+  "name": "CtrlrX",
+  "developer": "Damien Sellier",
+  "description": "Enhanced Ctrlr: build your own control panels to edit MIDI hardware such as synthesizers, drum machines and effects.",
+  "repo": "https://github.com/damiensellier/CtrlrX",
+  "license": "BSD-3-Clause",
+  "kind": "midi",
+  "tags": [
+    "midi",
+    "controller",
+    "panel"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "CtrlrX"
+  ],
+  "versions": [
+    {
+      "version": "5.6.36",
+      "date": "2026-10-21",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.36/ctrlrx-5.6.36-linux-x86_64.tar.gz",
+          "sha256": "022cd5076aed57ddf67b96de7ed84176f6ce8b44ab068fe25c14bf28bc8c2215",
+          "size": 24586455,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "ctrlrx-5.6.36-linux-x86_64/vst3/CtrlrX.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://ko-fi.com/damiensellier"
+}
