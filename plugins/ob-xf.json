@@ -1,0 +1,61 @@
+{
+  "id": "ob-xf",
+  "name": "OB-Xf",
+  "developer": "Surge Synth Team",
+  "description": "Continuation of the open-source OB-Xd, a polyphonic synth in the style of the Oberheim OB-X.",
+  "homepage": "https://github.com/surge-synthesizer/OB-Xf",
+  "repo": "https://github.com/surge-synthesizer/OB-Xf",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "analog-modelling"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "OB-Xf"
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "date": "2026-03-27",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.zip",
+          "sha256": "149fda0649daf8a3aa0851801f92515f0dbf6203acf33c0edc7d3c445e80b1e7",
+          "size": 9222959,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "obxf_products/OB-Xf.clap",
+              "format": "clap"
+            },
+            {
+              "path": "obxf_products/OB-Xf.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Linux-v1.0.3.zip",
+          "sha256": "72b60c83cf6426337031df744c34a047104a9d95f1feaf6cd048ecfa39f74c96",
+          "size": 21867343,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "obxf_products/OB-Xf.clap",
+              "format": "clap"
+            },
+            {
+              "path": "obxf_products/OB-Xf.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

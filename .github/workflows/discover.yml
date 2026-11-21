@@ -1,0 +1,42 @@
+name: Discover candidates
+
+on:
+  schedule:
+    - cron: "43 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Search GitHub
+        run: python tools/discover.py --markdown candidates.md
+      - name: Open or update the issue
+        run: |
+          count=$(python -c "import json;print(len(json.load(open('candidates.json'))['candidates']))")
+          if [ "$count" = "0" ]; then echo "No new candidates."; exit 0; fi
+          {
+            echo "Repos that look listable and are not in \`plugins/\` or \`rejected.json\`. For each: review it, then run \`python tools/add.py owner/repo\` and open a PR, or add it to \`rejected.json\` with a reason so it stops coming back. See CONTRIBUTING.md."
+            echo
+            cat candidates.md
+          } > body.md
+          title="New plugin candidates"
+          number=$(gh issue list --state open --search "\"$title\" in:title" --json number,title \
+            --jq "map(select(.title == \"$title\"))[0].number // empty")
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file body.md
+          else
+            gh issue create --title "$title" --body-file body.md
+          fi

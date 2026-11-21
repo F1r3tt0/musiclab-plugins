@@ -1,0 +1,32 @@
+name: Validate
+
+on:
+  pull_request:
+    paths:
+      - "plugins/**"
+      - "schema/**"
+      - "tools/**"
+      - "rejected.json"
+      - ".github/workflows/pr.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Check manifests
+        run: python tools/validate.py
+      - name: Download changed assets and check size and sha256
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/validate.py --verify --base "origin/${{ github.base_ref }}"

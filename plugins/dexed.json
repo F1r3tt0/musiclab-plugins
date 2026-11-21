@@ -1,0 +1,77 @@
+{
+  "id": "dexed",
+  "name": "Dexed",
+  "developer": "Digital Suburban",
+  "description": "FM synthesizer modelled on the Yamaha DX7, reads DX7 SysEx patches.",
+  "repo": "https://github.com/asb2m10/dexed",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "fm",
+    "dx7"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Dexed"
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "date": "2026-10-31",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/asb2m10/dexed/releases/download/v1.1.0/Dexed-1.1.0-win.zip",
+          "sha256": "4773150a3dfa281d1caef583f493a41ed99ea95b054b5a3479780799ed6279cc",
+          "size": 12277566,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Dexed.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Dexed.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/asb2m10/dexed/releases/download/v1.1.0/Dexed-1.1.0-macOS.zip",
+          "sha256": "d6576d064313327e216cec9d6f62caa650b44746bc7c8d4b010df7f55d9b8ae3",
+          "size": 22662851,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Dexed.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Dexed.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/asb2m10/dexed/releases/download/v1.1.0/Dexed-1.1.0-lnx.zip",
+          "sha256": "3a1a01511e3428f432cc91c7bf5267d72bfcb68aded4f084d4f9d002dcc42da6",
+          "size": 12206213,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Dexed.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Dexed.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "jc303",
+  "name": "JC-303",
+  "developer": "midilab",
+  "description": "Roland TB-303 style bass synthesizer.",
+  "homepage": "https://midilab.co/jc303",
+  "repo": "https://github.com/midilab/jc303",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "bass",
+    "acid"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "JC303",
+    "JC-303"
+  ],
+  "versions": [
+    {
+      "version": "0.14.0",
+      "date": "2026-11-14",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-windows_x64-plugins.zip",
+          "sha256": "499c1bec494d9116999a52c13ae59ff503bdff32438e8ef4af5fce6408e08057",
+          "size": 27444816,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "JC-303_Windows_X64-0.14.0/CLAP/JC303.clap",
+              "format": "clap"
+            },
+            {
+              "path": "JC-303_Windows_X64-0.14.0/VST3/JC303.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-macos_universal-plugins.zip",
+          "sha256": "dfdc9b7deb674d472dc8663ec03a8ea177bf5d752beac4058cd0ea309bd48107",
+          "size": 69267408,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "JC-303_MacOS_Universal-0.14.0/CLAP/JC303.clap",
+              "format": "clap"
+            },
+            {
+              "path": "JC-303_MacOS_Universal-0.14.0/VST3/JC303.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-linux_x64-plugins.zip",
+          "sha256": "378200f8ddda266873c9795feb6ee857fbae000a3b3537a7b42933dd277b370c",
+          "size": 28669450,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "JC-303_Linux_X64-0.14.0/CLAP/JC303.clap",
+              "format": "clap"
+            },
+            {
+              "path": "JC-303_Linux_X64-0.14.0/VST3/JC303.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

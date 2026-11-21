@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://f1r3tt0.github.io/musiclab-plugins/schema/plugin.schema.json",
+  "title": "Music Lab plugin manifest",
+  "description": "One free, open-source audio plugin listed in the Music Lab plugin registry. File: plugins/<id>.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "developer", "description", "repo", "license", "kind", "tags", "formats", "provides", "versions"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 64,
+      "description": "Lowercase letters, digits and dashes. Must equal the file name without .json."
+    },
+    "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "developer": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "description": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "homepage": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "repo": {
+      "type": "string",
+      "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$",
+      "description": "Source code repository."
+    },
+    "releases": {
+      "type": "string",
+      "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$",
+      "description": "Repository that publishes the binaries, when it is not `repo`."
+    },
+    "license": {
+      "type": "string",
+      "minLength": 2,
+      "description": "SPDX identifier of an OSI-approved licence (checked by tools/validate.py)."
+    },
+    "kind": { "enum": ["instrument", "effect", "midi", "bundle"] },
+    "tags": {
+      "type": "array",
+      "maxItems": 12,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+    },
+    "formats": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["vst3", "clap"] }
+    },
+    "provides": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Plugin names as a host's scan reports them, so a song that lacks one can offer this install."
+    },
+    "notes": { "type": "string", "maxLength": 500 },
+    "versions": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Newest first.",
+      "items": { "$ref": "#/$defs/version" }
+    }
+  },
+  "$defs": {
+    "version": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "date", "assets"],
+      "properties": {
+        "version": { "type": "string", "minLength": 1, "maxLength": 40 },
+        "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "assets": {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": { "enum": ["windows-x64", "macos-universal", "macos-arm64", "linux-x64", "linux-arm64"] },
+          "additionalProperties": { "$ref": "#/$defs/asset" }
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "sha256", "size", "archive", "bundles"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/releases/download/[^/]+/[^/?#]+$"
+        },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "size": { "type": "integer", "minimum": 1 },
+        "archive": { "enum": ["zip", "tar.gz", "tar.xz", "dmg", "none"] },
+        "inner": {
+          "type": "string",
+          "description": "Folder inside the archive that the bundle paths are relative to. Omit when they are relative to the archive root."
+        },
+        "bundles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["path", "format"],
+            "properties": {
+              "path": { "type": "string", "minLength": 1, "description": "Bundle path (a .vst3 or .clap file or folder), relative to the archive root or `inner`. Forward slashes, no `..`." },
+              "format": { "enum": ["vst3", "clap"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}

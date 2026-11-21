@@ -1,0 +1,62 @@
+{
+  "id": "master-me",
+  "name": "master_me",
+  "developer": "Klaus Scheuermann, Werner Tinti and others",
+  "description": "Automatic mastering plugin for streaming, podcasts and radio: levelling, EQ, compression and limiting.",
+  "homepage": "https://github.com/trummerschlunk/master_me",
+  "repo": "https://github.com/trummerschlunk/master_me",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "mastering",
+    "dynamics",
+    "broadcast"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "master_me"
+  ],
+  "versions": [
+    {
+      "version": "1.3.1",
+      "date": "2025-07-02",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-win64.zip",
+          "sha256": "0122b72259fd54f99854d038cd7f850f06f6f62d68495f6cc15f57251938fd72",
+          "size": 13178088,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "master_me-1.3.1/master_me.clap",
+              "format": "clap"
+            },
+            {
+              "path": "master_me-1.3.1/master_me.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-linux-arm64.tar.xz",
+          "sha256": "d93d4630f7d2eae1fff5912f89dcf13b810d2b1a3cc0cffa14a3514958da3ec9",
+          "size": 2136644,
+          "archive": "tar.xz",
+          "bundles": [
+            {
+              "path": "master_me-1.3.1/master_me.clap",
+              "format": "clap"
+            },
+            {
+              "path": "master_me-1.3.1/master_me.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
