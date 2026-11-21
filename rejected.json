@@ -134,5 +134,11 @@
   { "repo": "vitling/crypt", "reason": "latest release has no downloadable assets" },
   { "repo": "vvvar/PeakEater", "reason": "no release in the last three years (latest 2023-08-20)" },
   { "repo": "wolf-plugins/wolf-shaper", "reason": "no release in the last three years (latest 2023-05-14)" },
-  { "repo": "yokemura/Magical8bitPlug2", "reason": "no release in the last three years (latest 2021-05-08)" }
+  { "repo": "yokemura/Magical8bitPlug2", "reason": "no release in the last three years (latest 2021-05-08)" },
+  { "repo": "zeloe/ReverbZen", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .zip)" },
+  { "repo": "ZL-Audio/ZLInflator", "reason": "latest release ships installers only (.exe, .dmg)" },
+  { "repo": "ZL-Audio/ZLLMakeup", "reason": "latest release ships installers only (.exe, .dmg)" },
+  { "repo": "ZL-Audio/ZLLMatch", "reason": "latest release ships installers only (.exe, .dmg)" },
+  { "repo": "ZL-Audio/ZLWarm", "reason": "latest release ships installers only (.exe, .dmg)" },
+  { "repo": "zones-convolution/zones_client", "reason": "latest release ships installers only (.exe, .pkg)" }
 ]

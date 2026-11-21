@@ -1,0 +1,52 @@
+{
+  "id": "zlequalizer",
+  "name": "ZL Equalizer",
+  "developer": "ZL Audio",
+  "description": "Dynamic equalizer.",
+  "repo": "https://github.com/ZL-Audio/ZLEqualizer",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "eq",
+    "dynamic-eq"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "ZL Equalizer 2"
+  ],
+  "versions": [
+    {
+      "version": "1.4.2",
+      "date": "2026-11-09",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.2/ZL.Equalizer.2-1.4.2-Linux-x86-64-AVX2.zip",
+          "sha256": "d7b71c0b8084b518a84217ea8acf0388fd422965c3b1953b483a5b12e4a3ac4d",
+          "size": 11317401,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/ZL Equalizer 2.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.2/ZL.Equalizer.2-1.4.2-Linux-arm64.zip",
+          "sha256": "94e8287fc7817f30bd14772b289bada45a1c7fe4c73028eeb31f7a520e4304c3",
+          "size": 10453894,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/ZL Equalizer 2.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://zl-audio.github.io/plugins/zlequalizer2/"
+}

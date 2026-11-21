@@ -1,0 +1,528 @@
+{
+  "id": "zam-plugins",
+  "name": "ZAM Plugins",
+  "developer": "Damien Zammit",
+  "description": "Collection of high-quality processing plugins: compressors, a maximizer, EQs, delay and echo, gates, a tube, a reverb and more.",
+  "repo": "https://github.com/zamaudio/zam-plugins",
+  "license": "GPL-2.0",
+  "kind": "bundle",
+  "tags": [
+    "dynamics",
+    "eq",
+    "reverb",
+    "collection"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "ZaMaximX2",
+    "ZaMultiComp",
+    "ZaMultiCompX2",
+    "ZamAutoSat",
+    "ZamComp",
+    "ZamCompX2",
+    "ZamDelay",
+    "ZamDynamicEQ",
+    "ZamEQ2",
+    "ZamEcho",
+    "ZamGEQ31",
+    "ZamGate",
+    "ZamGateX2",
+    "ZamGrains",
+    "ZamHeadX2",
+    "ZamNoise",
+    "ZamPhono",
+    "ZamTube",
+    "ZamVerb"
+  ],
+  "versions": [
+    {
+      "version": "4.5",
+      "date": "2026-04-04",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip",
+          "sha256": "745990b0acdda1cc319cd55aafdf61b6f258015810f310abd31d8bbe849e4da8",
+          "size": 128302481,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "zam-plugins-4.5/ZaMaximX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMaximX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiComp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiComp.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiCompX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiCompX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamAutoSat.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamAutoSat.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamComp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamComp.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamCompX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamCompX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDelay.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDelay.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDynamicEQ.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDynamicEQ.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEQ2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEQ2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEcho.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEcho.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGEQ31.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGEQ31.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGate.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGate.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGateX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGateX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGrains.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGrains.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamHeadX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamHeadX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamNoise.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamNoise.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamPhono.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamPhono.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamTube.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamTube.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamVerb.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamVerb.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-x86_64.tar.xz",
+          "sha256": "16b022cce2998d11d3dbcf15aa6fe176cd14576cad42250ae8cfc56d1b7add7a",
+          "size": 39868912,
+          "archive": "tar.xz",
+          "bundles": [
+            {
+              "path": "zam-plugins-4.5/ZaMaximX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMaximX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiComp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiComp.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiCompX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiCompX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamAutoSat.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamAutoSat.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamComp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamComp.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamCompX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamCompX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDelay.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDelay.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDynamicEQ.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDynamicEQ.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEQ2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEQ2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEcho.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEcho.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGEQ31.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGEQ31.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGate.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGate.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGateX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGateX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGrains.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGrains.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamHeadX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamHeadX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamNoise.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamNoise.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamPhono.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamPhono.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamTube.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamTube.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamVerb.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamVerb.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-arm64.tar.xz",
+          "sha256": "4e02771b743afaaa2d6912eac083661c1d9ab0a92dd6787414f29e365877b4c2",
+          "size": 39549040,
+          "archive": "tar.xz",
+          "bundles": [
+            {
+              "path": "zam-plugins-4.5/ZaMaximX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMaximX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiComp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiComp.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiCompX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZaMultiCompX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamAutoSat.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamAutoSat.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamComp.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamComp.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamCompX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamCompX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDelay.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDelay.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDynamicEQ.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamDynamicEQ.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEQ2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEQ2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEcho.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamEcho.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGEQ31.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGEQ31.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGate.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGate.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGateX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGateX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGrains.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamGrains.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamHeadX2.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamHeadX2.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamNoise.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamNoise.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamPhono.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamPhono.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamTube.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamTube.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamVerb.clap",
+              "format": "clap"
+            },
+            {
+              "path": "zam-plugins-4.5/ZamVerb.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

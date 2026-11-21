@@ -1,0 +1,53 @@
+{
+  "id": "zlspectrumequalizer",
+  "name": "ZL Spectrum Equalizer",
+  "developer": "ZL Audio",
+  "description": "Dynamic equalizer that works on the spectrum.",
+  "repo": "https://github.com/ZL-Audio/ZLSpectrumEqualizer",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "eq",
+    "spectrum",
+    "dynamic-eq"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "ZL Spectrum Equalizer"
+  ],
+  "versions": [
+    {
+      "version": "0.1.2",
+      "date": "2026-11-09",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-Linux-x86-64-AVX2.zip",
+          "sha256": "44c60f25b9fdcd7bec62a69dae33c769615225c209ad3fede2a5e9651a600f76",
+          "size": 6294913,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/ZL Spectrum Equalizer.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-Linux-arm64.zip",
+          "sha256": "f27c952dc27dc846ae2181947386cb78547ab763fd8d571137432737ebe8bcb0",
+          "size": 5864033,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/ZL Spectrum Equalizer.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://zl-audio.github.io/plugins/zlspeceq/"
+}

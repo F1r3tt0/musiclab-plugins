@@ -1,0 +1,53 @@
+{
+  "id": "zlsplitter",
+  "name": "ZL Splitter",
+  "developer": "ZL Audio",
+  "description": "Splitter plugin for dividing a signal into parts.",
+  "repo": "https://github.com/ZL-Audio/ZLSplitter",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "splitter",
+    "routing",
+    "utility"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "ZL Splitter"
+  ],
+  "versions": [
+    {
+      "version": "0.4.0",
+      "date": "2026-11-07",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip",
+          "sha256": "843fd5439547f8ec0ab546348803e1402c515fd3ebba6fabe08f636e2397f22e",
+          "size": 5848894,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/ZL Splitter.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip",
+          "sha256": "db2117da6cab586fe3157f5081d0cc0fa1ea7839f4a2dfdbe7d524507af45804",
+          "size": 5426960,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/ZL Splitter.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://zl-audio.github.io/plugins/zlsplitter/"
+}
