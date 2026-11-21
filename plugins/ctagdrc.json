@@ -1,0 +1,44 @@
+{
+  "id": "ctagdrc",
+  "name": "CTAGDRC",
+  "developer": "Billy Messenger",
+  "description": "Dynamic range compressor made with JUCE.",
+  "repo": "https://github.com/BillyDM/CTAGDRC",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "compressor",
+    "dynamics"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "CTAGDRC"
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "date": "2025-12-13",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Linux.zip",
+          "sha256": "82eb11641479af6a2a9251886de99c6b0073442dec22e32001e8f93144c931a7",
+          "size": 7365964,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/CTAGDRC.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/CTAGDRC.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

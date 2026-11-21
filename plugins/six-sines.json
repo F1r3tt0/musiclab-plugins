@@ -1,0 +1,61 @@
+{
+  "id": "six-sines",
+  "name": "Six Sines",
+  "developer": "Paul",
+  "description": "Synthesizer built from six sine oscillators that can modulate each other, for FM, ring modulation and layered tones.",
+  "repo": "https://github.com/baconpaul/six-sines",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "fm",
+    "sines"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Six Sines"
+  ],
+  "versions": [
+    {
+      "version": "1.2.1",
+      "date": "2026-07-20",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.1/six-sines-Windows-2026-07-20-18ecb36.zip",
+          "sha256": "9f7c7fa5cb1c5e11b53c0a9306ee443149cc7bc0a109380dbbe1578f3a7b6e5d",
+          "size": 22398434,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "installer_copy/Six Sines.clap",
+              "format": "clap"
+            },
+            {
+              "path": "installer_copy/Six Sines.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.1/six-sines-Linux-2026-07-20-18ecb36.zip",
+          "sha256": "9b5353eebfec3e462c80ed8c0f53c965e6262bb38537518159cce71de7eace41",
+          "size": 28862299,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "six-sines_assets/Six Sines.clap",
+              "format": "clap"
+            },
+            {
+              "path": "six-sines_assets/Six Sines.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

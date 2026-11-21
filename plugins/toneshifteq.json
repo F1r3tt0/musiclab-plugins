@@ -1,0 +1,51 @@
+{
+  "id": "toneshifteq",
+  "name": "ToneShiftEQ",
+  "developer": "Hermann",
+  "description": "12-band equalizer for precise tone shaping, mixing, mastering and corrective work.",
+  "repo": "https://github.com/brummer10/ToneShiftEQ",
+  "license": "BSD-3-Clause",
+  "kind": "effect",
+  "tags": [
+    "eq",
+    "mastering"
+  ],
+  "formats": [
+    "clap"
+  ],
+  "provides": [
+    "toneshifteq"
+  ],
+  "versions": [
+    {
+      "version": "1.3.0",
+      "date": "2026-10-08",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/brummer10/ToneShiftEQ/releases/download/v1.3.0/ToneShiftEQ-v1.3.0-clap-win64.zip",
+          "sha256": "0315ce16145084c9d17082a2a58eb477a8ee25142c744a0ec0839b8a05882ef6",
+          "size": 2699515,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "ToneShiftEQ-v1.3.0-clap/toneshifteq.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/brummer10/ToneShiftEQ/releases/download/v1.3.0/ToneShiftEQ-v1.3.0-clap-linux-x86_64.tar.xz",
+          "sha256": "ee4220fa374f5726e17695fe38ad3a288685fdb7a42f66fe14e20039104655ab",
+          "size": 2177792,
+          "archive": "tar.xz",
+          "bundles": [
+            {
+              "path": "ToneShiftEQ-v1.3.0-clap/toneshifteq.clap",
+              "format": "clap"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,122 +1,40 @@
 [
-  {
-    "repo": "DISTRHO/Cardinal",
-    "reason": "Windows release archive is about 1.1 GB; too large for a one-click install"
-  },
-  {
-    "repo": "Chowdhury-DSP/BYOD",
-    "reason": "latest release ships installers only (.exe, .dmg, .deb)"
-  },
-  {
-    "repo": "Chowdhury-DSP/ChowMultiTool",
-    "reason": "latest release ships installers only (.exe, .dmg, .deb)"
-  },
-  {
-    "repo": "jatinchowdhury18/AnalogTapeModel",
-    "reason": "Chow Tape Model: latest release ships installers only (.exe, .dmg, .deb)"
-  },
-  {
-    "repo": "reales/OB-Xd",
-    "reason": "latest release ships installers only (.exe, .pkg, .deb); OB-Xf is listed instead"
-  },
-  {
-    "repo": "TheWaveWarden/odin2",
-    "reason": "latest release is tagged NightlyDevel and ships installers (.exe, .pkg, .deb); only the Linux build is a zip"
-  },
-  {
-    "repo": "airwindows/airwindows",
-    "reason": "Airwindows: no GitHub releases"
-  },
-  {
-    "repo": "mtytel/vital",
-    "reason": "Vital: no GitHub releases"
-  },
-  {
-    "repo": "DISTRHO/DISTRHO-Ports",
-    "reason": "no licence set on the repository and the last release is from 2021"
-  },
-  {
-    "repo": "juce-framework/JUCE",
-    "reason": "a framework, not a plugin"
-  },
-  {
-    "repo": "iPlug2/iPlug2",
-    "reason": "a framework, not a plugin"
-  },
-  {
-    "repo": "kushview/element",
-    "reason": "a host application, not a plugin"
-  },
-  {
-    "repo": "DropSnorz/OwlPlug",
-    "reason": "a plugin manager application, not a plugin"
-  },
-  {
-    "repo": "monocasual/giada",
-    "reason": "a standalone application, not a plugin"
-  },
-  {
-    "repo": "stargatedaw/stargate",
-    "reason": "a DAW, not a plugin"
-  },
-  {
-    "repo": "davy7125/polyphone",
-    "reason": "a standalone soundfont editor, not a plugin"
-  },
-  {
-    "repo": "NeptuneHub/AudioMuse-AI",
-    "reason": "not an audio plugin"
-  },
-  {
-    "repo": "ryanccn/nrr",
-    "reason": "not an audio plugin"
-  },
-  {
-    "repo": "tod-org/tod",
-    "reason": "not an audio plugin"
-  },
-  {
-    "repo": "AlbertoNR98/sinT",
-    "reason": "latest release ships installers only (.exe, .deb)"
-  },
-  {
-    "repo": "AnClark/ClassicReverb-RE04",
-    "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform"
-  },
-  {
-    "repo": "AnClark/Comprez",
-    "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform"
-  },
-  {
-    "repo": "appdess/dessmetal",
-    "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform"
-  },
-  {
-    "repo": "ArborealAudio/OmniAmp",
-    "reason": "latest release has no downloadable assets"
-  },
-  {
-    "repo": "ArborealAudio/PiMax",
-    "reason": "latest release has no downloadable assets"
-  },
-  {
-    "repo": "ArborealAudio/STR-X",
-    "reason": "no release in the last three years (latest 2023-09-16)"
-  },
-  {
-    "repo": "ardura/Interleaf",
-    "reason": "repository is archived"
-  },
-  {
-    "repo": "astriiddev/Ami-Sampler-VST",
-    "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .7z, .pkg)"
-  },
-  {
-    "repo": "astriiddev/BitDOS-VST",
-    "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .7z, .pkg)"
-  },
-  {
-    "repo": "astriiddev/Sub_Dominant-VST",
-    "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .7z, .pkg, .vst3)"
-  }
+  { "repo": "DISTRHO/Cardinal", "reason": "Windows release archive is about 1.1 GB; too large for a one-click install" },
+  { "repo": "Chowdhury-DSP/BYOD", "reason": "latest release ships installers only (.exe, .dmg, .deb)" },
+  { "repo": "Chowdhury-DSP/ChowMultiTool", "reason": "latest release ships installers only (.exe, .dmg, .deb)" },
+  { "repo": "jatinchowdhury18/AnalogTapeModel", "reason": "Chow Tape Model: latest release ships installers only (.exe, .dmg, .deb)" },
+  { "repo": "reales/OB-Xd", "reason": "latest release ships installers only (.exe, .pkg, .deb); OB-Xf is listed instead" },
+  { "repo": "TheWaveWarden/odin2", "reason": "latest release is tagged NightlyDevel and ships installers (.exe, .pkg, .deb); only the Linux build is a zip" },
+  { "repo": "airwindows/airwindows", "reason": "Airwindows: no GitHub releases" },
+  { "repo": "mtytel/vital", "reason": "Vital: no GitHub releases" },
+  { "repo": "DISTRHO/DISTRHO-Ports", "reason": "no licence set on the repository and the last release is from 2021" },
+  { "repo": "juce-framework/JUCE", "reason": "a framework, not a plugin" },
+  { "repo": "iPlug2/iPlug2", "reason": "a framework, not a plugin" },
+  { "repo": "kushview/element", "reason": "a host application, not a plugin" },
+  { "repo": "DropSnorz/OwlPlug", "reason": "a plugin manager application, not a plugin" },
+  { "repo": "monocasual/giada", "reason": "a standalone application, not a plugin" },
+  { "repo": "stargatedaw/stargate", "reason": "a DAW, not a plugin" },
+  { "repo": "davy7125/polyphone", "reason": "a standalone soundfont editor, not a plugin" },
+  { "repo": "NeptuneHub/AudioMuse-AI", "reason": "not an audio plugin" },
+  { "repo": "ryanccn/nrr", "reason": "not an audio plugin" },
+  { "repo": "tod-org/tod", "reason": "not an audio plugin" },
+  { "repo": "AlbertoNR98/sinT", "reason": "latest release ships installers only (.exe, .deb)" },
+  { "repo": "AnClark/ClassicReverb-RE04", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "AnClark/Comprez", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "appdess/dessmetal", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "ArborealAudio/OmniAmp", "reason": "latest release has no downloadable assets" },
+  { "repo": "ArborealAudio/PiMax", "reason": "latest release has no downloadable assets" },
+  { "repo": "ArborealAudio/STR-X", "reason": "no release in the last three years (latest 2023-09-16)" },
+  { "repo": "ardura/Interleaf", "reason": "repository is archived" },
+  { "repo": "astriiddev/Ami-Sampler-VST", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .7z, .pkg)" },
+  { "repo": "astriiddev/BitDOS-VST", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .7z, .pkg)" },
+  { "repo": "astriiddev/Sub_Dominant-VST", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform (assets: .7z, .pkg, .vst3)" },
+  { "repo": "Audio-Tech-Hub/pathfinder", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "azur1s/penare", "reason": "no release in the last three years (latest 2023-09-30)" },
+  { "repo": "Birch-san/juicysfplugin", "reason": "no release in the last three years (latest 2022-02-13)" },
+  { "repo": "calgoheen/cFlanger", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "calgoheen/cPhaser", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "calgoheen/cStop", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "Chmod666music/DPF", "reason": "a plugin framework (DISTRHO Plugin Framework fork), not a plugin; the release only holds one example plugin" },
+  { "repo": "Chowdhury-DSP/CHOW", "reason": "no release in the last three years (latest 2019-01-11)" }
 ]
