@@ -1,0 +1,76 @@
+{
+  "id": "trace-tuner",
+  "name": "TraceTuner",
+  "developer": "Simon Heimler",
+  "description": "Minimal tuner that also draws a history of how in tune the note has been.",
+  "repo": "https://github.com/Fannon/trace-tuner",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "tuner",
+    "analysis"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "TraceTuner"
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "date": "2026-10-11",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.2.0/TraceTuner_v1.2.0_windows.zip",
+          "sha256": "06bbc9cea7fdf130fa07a9c861b79eb997959e8e885c14bc56a59dc4fae52363",
+          "size": 4027397,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "TraceTuner/TraceTuner.clap",
+              "format": "clap"
+            },
+            {
+              "path": "TraceTuner/TraceTuner.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.2.0/TraceTuner_v1.2.0_macos.zip",
+          "sha256": "27cb8320ff3b16f8db47c89cf39db13697c3a726d10b855986c4b67f9df0e177",
+          "size": 3705746,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "TraceTuner/TraceTuner.clap",
+              "format": "clap"
+            },
+            {
+              "path": "TraceTuner/TraceTuner.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.2.0/TraceTuner_v1.2.0_linux.zip",
+          "sha256": "723dbb9740411e9d314c8856024c74db4c75f6a127bb53e792be00e961699df2",
+          "size": 4755704,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "TraceTuner/TraceTuner.clap",
+              "format": "clap"
+            },
+            {
+              "path": "TraceTuner/TraceTuner.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

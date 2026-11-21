@@ -1,0 +1,38 @@
+{
+  "id": "setekh",
+  "name": "Setekh",
+  "developer": "Full FX Media",
+  "description": "Minimal but powerful distortion plugin.",
+  "repo": "https://github.com/fullfxmedia/setekh",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Setekh"
+  ],
+  "versions": [
+    {
+      "version": "1.0.13",
+      "date": "2025-10-06",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/fullfxmedia/setekh/releases/download/v1.0.13/setekh-windows-v1.0.13.zip",
+          "sha256": "192f121c9f938c4f8877b28c2a0c7667937a49c55e511c180b015a8f4b630d7e",
+          "size": 12331375,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "setekh-windows/Setekh.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

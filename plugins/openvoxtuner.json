@@ -1,0 +1,42 @@
+{
+  "id": "openvoxtuner",
+  "name": "OpenVoxTuner",
+  "developer": "EiffelBS",
+  "description": "Vocal tuner with a curve editor, harmonies and MIDI output, with ARA2 support.",
+  "repo": "https://github.com/EiffelBS/OpenVoxTuner",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "pitch",
+    "vocal",
+    "tuner",
+    "harmony"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "OpenVoxTuner"
+  ],
+  "versions": [
+    {
+      "version": "0.1.71",
+      "date": "2026-08-27",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/EiffelBS/OpenVoxTuner/releases/download/v0.1.71/OpenVoxTuner-macOS.zip",
+          "sha256": "1ad2fde5fe3e5fa32ada8383e13c4154bb17d89444511e608bd41009c3ba9cf5",
+          "size": 25725369,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "OpenVoxTuner-macOS/OpenVoxTuner.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://openvoxtuner.eiffelbs.ovh"
+}

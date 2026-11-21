@@ -53,5 +53,15 @@
   { "repo": "DirektDSP/Chasm", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
   { "repo": "DISTRHO/Ildaeil", "reason": "no release in the last three years (latest 2023-07-15)" },
   { "repo": "DoomyDwyer/ASPiKProjects", "reason": "no release in the last three years (latest 2022-04-26)" },
-  { "repo": "doxiedevops/CrushClone", "reason": "latest release ships installers only (.exe, .pkg)" }
+  { "repo": "doxiedevops/CrushClone", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "dusk-audio/dusk-audio-plugins", "reason": "a monorepo of many plugins whose latest release is a single product (Tape Machine 2); a manifest for the whole repo would mix products across releases" },
+  { "repo": "eulmour/HandyOsc", "reason": "no release in the last three years (latest 2022-10-26)" },
+  { "repo": "FigBug/mverb", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "FigBug/PAPU", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "FigBug/RP2A03", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "FigBug/SID", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "FigBug/SN76489", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "FigBug/Voc", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "FigBug/Wavetable", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "gbevin/ShowMIDI", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" }
 ]

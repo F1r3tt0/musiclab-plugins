@@ -1,0 +1,66 @@
+{
+  "id": "audiorestorationvst",
+  "name": "AudioRestoration",
+  "developer": "flarkAUDIO",
+  "description": "Audio restoration tool: click removal, noise reduction, filters and EQ.",
+  "repo": "https://github.com/flarkflarkflark/AudioRestorationVST",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "restoration",
+    "denoise",
+    "declick"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "AudioRestoration-Windows",
+    "AudioRestoration-macOS-Universal-Ventura",
+    "AudioRestoration-Linux"
+  ],
+  "versions": [
+    {
+      "version": "1.6.35",
+      "date": "2026-03-02",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Windows-v1.6.35-VST3.zip",
+          "sha256": "5b78475bc9a492fd6d0049e5790d377dd3b69a7dd8ac81a0220d279f0186279c",
+          "size": 13993026,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "AudioRestoration-Windows.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-macOS-Universal-Ventura-v1.6.35-VST3.zip",
+          "sha256": "e7e37bdc5eb7e0d9963e37099aa2ea6429b2eb70f1d7a583e38c701f7e0c7558",
+          "size": 17722655,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "AudioRestoration-macOS-Universal-Ventura.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-VST3.zip",
+          "sha256": "9354b4d13d2088b1278e7ca89066defbb80d05d391df3b72998c371fee5510e3",
+          "size": 14225955,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "AudioRestoration-Linux.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
