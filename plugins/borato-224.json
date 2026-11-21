@@ -1,0 +1,64 @@
+{
+  "id": "borato-224",
+  "name": "Borato 224",
+  "developer": "Filipe Borato",
+  "description": "Reverb that emulates the Lexicon 224, modelling its 12-bit fixed-point design.",
+  "repo": "https://github.com/filipeborato/borato-224",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "reverb",
+    "vintage",
+    "lexicon"
+  ],
+  "formats": [
+    "clap"
+  ],
+  "provides": [
+    "Borato 224"
+  ],
+  "versions": [
+    {
+      "version": "0.0.6",
+      "date": "2026-07-04",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-CLAP.zip",
+          "sha256": "d6a8bb04ac63fe3acb36f3c4918f0b08bc735fefcdc3d056ef92ee9374b53f97",
+          "size": 2927833,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Borato 224.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-CLAP.zip",
+          "sha256": "a0e474ec0dd2895607af7a230e98811507be8d114d2a06caf075e0301f8a2af2",
+          "size": 3034500,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Borato 224.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-CLAP.tar.gz",
+          "sha256": "7ea001fc632e7ced6bbd48d4ca8761d0cede0fadb23be0a51aa9cf375b3f524b",
+          "size": 4047145,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "Borato 224.clap",
+              "format": "clap"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

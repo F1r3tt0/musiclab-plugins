@@ -1,0 +1,53 @@
+{
+  "id": "freeeq8",
+  "name": "FreeEQ8",
+  "developer": "Neo-VECTR",
+  "description": "8-band parametric EQ with linear-phase mode, dynamic EQ and match EQ.",
+  "repo": "https://github.com/GareBear99/FreeEQ8",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "eq",
+    "parametric",
+    "linear-phase"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "FreeEQ8"
+  ],
+  "versions": [
+    {
+      "version": "2.3.1",
+      "date": "2026-07-31",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/GareBear99/FreeEQ8/releases/download/v2.3.1/FreeEQ8-v2.3.1-Windows.zip",
+          "sha256": "6d2c1668eeb3950a8b5d731503bec7395d64ba63a7e1f21c0b406cbe3ca20d56",
+          "size": 2674540,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "FreeEQ8.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/GareBear99/FreeEQ8/releases/download/v2.3.1/FreeEQ8-v2.3.1-Linux.tar.gz",
+          "sha256": "6227531d1c96db4d9e6037de74f0701ed480126788683f92989d4e5a8d354b2b",
+          "size": 8203236,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "FreeEQ8-v2.3.1-Linux/FreeEQ8.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://github.com/GareBear99/FreeEQ8/releases"
+}

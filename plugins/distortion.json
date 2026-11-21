@@ -1,0 +1,65 @@
+{
+  "id": "distortion",
+  "name": "Sledge Distortion",
+  "developer": "Boris Miscenco",
+  "description": "Distortion plugin where you draw the EQ curve on an oscilloscope; also loads Neural Amp Modeler profiles.",
+  "repo": "https://github.com/elarmuzik1993/Distortion",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "distortion",
+    "nam",
+    "eq"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Sledge Distortion"
+  ],
+  "versions": [
+    {
+      "version": "2.4.0",
+      "date": "2026-11-03",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/elarmuzik1993/Distortion/releases/download/v2.4.0/SledgeDistortion-2.4.0-Windows.zip",
+          "sha256": "65087a908e82689920618a8fae781e5d76aa4ac3f5890af0a045751d8f87b7f5",
+          "size": 29755508,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Sledge Distortion.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/elarmuzik1993/Distortion/releases/download/v2.4.0/SledgeDistortion-2.4.0-macOS.zip",
+          "sha256": "da187fa0a6f47ecb566ca633fe603e564fbc46e20a014d446e533462ae88787a",
+          "size": 14594665,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "SledgeDistortion-2.4.0-macOS/Sledge Distortion.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/elarmuzik1993/Distortion/releases/download/v2.4.0/SledgeDistortion-2.4.0-Linux.tar.gz",
+          "sha256": "48d6ac210450b6c3a1a8ef7ee5debc654f3b0cdbbce9aaf71c2e19df62a64da9",
+          "size": 4253919,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "SledgeDistortion-2.4.0-Linux/Sledge Distortion.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://monolitbeatz.com"
+}

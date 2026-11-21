@@ -1,0 +1,40 @@
+{
+  "id": "sub-orbit",
+  "name": "Sub-Orbit",
+  "developer": "ECHOES LAB",
+  "description": "Mono-safe low-end stereoizer: widens bass while keeping it safe for mono playback.",
+  "repo": "https://github.com/echoeslabmusic/Sub-Orbit",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "stereo",
+    "bass",
+    "utility"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "SUB ORBIT"
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "date": "2026-04-03",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/echoeslabmusic/Sub-Orbit/releases/download/v1.1.1/SubOrbit-Linux-VST3.tar.gz",
+          "sha256": "b10fe67dd684494249f0ba4f532098db031c13765fbd8e2405e308af2e1cd222",
+          "size": 4980196,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "SUB ORBIT.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

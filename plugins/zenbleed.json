@@ -1,0 +1,40 @@
+{
+  "id": "zenbleed",
+  "name": "Zenbleed",
+  "developer": "DspiveyVR",
+  "description": "Synth and MIDI sequencer for making extratone and related fast, extreme music.",
+  "repo": "https://github.com/DspiveyVR/Zenbleed",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "sequencer",
+    "extratone"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Zenbleed"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2026-05-30",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/DspiveyVR/Zenbleed/releases/download/v1.0.0/Zenbleed-1.0.0-Linux.zip",
+          "sha256": "2d30de7a9a98015456be28491d74e2239decc3f36e93703a27ec7da236f5cca6",
+          "size": 5473596,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/Zenbleed.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
