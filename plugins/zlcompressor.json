@@ -1,0 +1,52 @@
+{
+  "id": "zlcompressor",
+  "name": "ZL Compressor",
+  "developer": "ZL Audio",
+  "description": "Dynamic range processor.",
+  "repo": "https://github.com/ZL-Audio/ZLCompressor",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "compressor",
+    "dynamics"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "ZL Compressor"
+  ],
+  "versions": [
+    {
+      "version": "0.6.1",
+      "date": "2026-09-28",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
+          "sha256": "998beb9aacb1e4f24075d1f0620279f84ba321901b775c99cdfe3554c869b4ed",
+          "size": 9412291,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/ZL Compressor.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-arm64.zip",
+          "sha256": "772c0db9b65c340dab24b3942c8e962a268befbe0a1bb1bb9927f33a59b1ca45",
+          "size": 8676287,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/ZL Compressor.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://zl-audio.github.io/plugins/zlcompressor/"
+}
