@@ -1,0 +1,65 @@
+{
+  "id": "phu-beat-sync-multi-scope",
+  "name": "PHU Beat Sync Multi Scope",
+  "developer": "Peter:H",
+  "description": "Beat-synced oscilloscope that shows the signals of other instances of itself set to broadcast, so several tracks can be compared.",
+  "repo": "https://github.com/huberp/phu-beat-sync-multi-scope",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "oscilloscope",
+    "analyzer",
+    "multi-track"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "PHU BEAT SYNC MULTI SCOPE"
+  ],
+  "versions": [
+    {
+      "version": "0.6.0",
+      "date": "2026-11-01",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.6.0/PHU-BEAT-SYNC-MULTI-SCOPE-windows-x64-0.6.0.zip",
+          "sha256": "3061dab88ed53e344e78bd61af3b678f33c5c5fd6a20576ef892f6384d1ba968",
+          "size": 3170596,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PHU BEAT SYNC MULTI SCOPE.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.6.0/PHU-BEAT-SYNC-MULTI-SCOPE-macos-arm64-0.6.0.zip",
+          "sha256": "21ee6f343dbed91ae83f6654ec850ce0dc46c9d9a73fdbdbda544acf606fbf59",
+          "size": 8145730,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PHU BEAT SYNC MULTI SCOPE.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.6.0/PHU-BEAT-SYNC-MULTI-SCOPE-linux-x64-0.6.0.zip",
+          "sha256": "1192650c5d3a0f348d7b3530afabde5b6a91ac64d5111f731c4dac09e7b18666",
+          "size": 2916456,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "PHU BEAT SYNC MULTI SCOPE.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://ko-fi.com/phuplugins"
+}

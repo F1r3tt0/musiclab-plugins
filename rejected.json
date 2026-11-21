@@ -70,5 +70,11 @@
   { "repo": "GuitarML/SmartGuitarAmp", "reason": "latest release ships installers only (.exe, .deb, .dmg)" },
   { "repo": "GuitarML/SmartGuitarPedal", "reason": "latest release ships installers only (.exe, .deb, .dmg)" },
   { "repo": "hotwatermorning/wahwth", "reason": "no release in the last three years (latest 2020-06-05)" },
-  { "repo": "gPTPPs/UB_Poly16", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" }
+  { "repo": "gPTPPs/UB_Poly16", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" },
+  { "repo": "ImJimmi/Contrast", "reason": "no release in the last three years (latest 2022-10-16)" },
+  { "repo": "izzyreal/vmpc-juce", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "jacobweber/ostinato", "reason": "no release in the last three years (latest 2022-02-14)" },
+  { "repo": "jatinchowdhury18/ChowPhaser", "reason": "no release in the last three years (latest 2021-04-23)" },
+  { "repo": "jatinchowdhury18/KlonCentaur", "reason": "no release in the last three years (latest 2021-05-26)" },
+  { "repo": "JoergBitzer/JadeSpectrogram", "reason": "no release in the last three years (latest 2021-07-02)" }
 ]

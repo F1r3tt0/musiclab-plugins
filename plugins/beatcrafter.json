@@ -1,0 +1,53 @@
+{
+  "id": "beatcrafter",
+  "name": "BeatCrafter",
+  "developer": "innermost47",
+  "description": "MIDI drum pattern generator for live use with foot controllers; creates patterns in many styles.",
+  "repo": "https://github.com/innermost47/beatcrafter",
+  "license": "MIT",
+  "kind": "midi",
+  "tags": [
+    "drums",
+    "pattern",
+    "generator",
+    "midi"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "BeatCrafter"
+  ],
+  "versions": [
+    {
+      "version": "13",
+      "date": "2026-07-03",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/innermost47/beatcrafter/releases/download/v13/BeatCrafter-Windows-VST3.zip",
+          "sha256": "34f0a02baa544cf3da2d28a244a82c6049bbc6adc37cef8699a8a043b8597f98",
+          "size": 1038164,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "BeatCrafter.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/innermost47/beatcrafter/releases/download/v13/BeatCrafter-Linux-VST3.tar.gz",
+          "sha256": "5a5e0c1bce6c19c7635ad541dd4db63613e2fd6938fc6cce158c7018d416445e",
+          "size": 1515745,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "BeatCrafter.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "homecorrupter",
+  "name": "homecorrupter",
+  "developer": "Igor Zinken",
+  "description": "Lo-fi effect that lowers sample rate, bit depth and playback speed on the fly.",
+  "repo": "https://github.com/igorski/homecorrupter",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "lofi",
+    "bitcrusher",
+    "sample-rate"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "homecorrupter"
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "date": "2026-08-29",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/igorski/homecorrupter/releases/download/1.2.0/homecorrupter.1.2.0_windows.zip",
+          "sha256": "358cd3c09ebc37fea8979aae649cdbfbe066696a080d63efdd2cf6dd10d6d6ab",
+          "size": 2352030,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Windows 64-Bit/VST3/homecorrupter.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/igorski/homecorrupter/releases/download/1.2.0/homecorrupter.1.2.0_macos.zip",
+          "sha256": "3eeadf2e351fb6e8df4e276ac2d590a0da96cd176f612e4aa0bc1a0a51b4910b",
+          "size": 7731462,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/homecorrupter.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://www.igorski.nl/plugins/homecorrupter"
+}

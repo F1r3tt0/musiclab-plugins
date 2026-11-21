@@ -1,0 +1,40 @@
+{
+  "id": "molluskvoicechanger",
+  "name": "Mollusk Voice Changer",
+  "developer": "Ito Hyakkei",
+  "description": "Real-time voice changer, also available as a standalone app.",
+  "repo": "https://github.com/hyakkei/MolluskVoiceChanger",
+  "license": "AGPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "voice",
+    "pitch",
+    "formant"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Mollusk Voice Changer"
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "date": "2026-05-17",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/Mollusk.Voice.Changer_1.1.0_win.zip",
+          "sha256": "36405adfac1609fddcb07a735ba5a18bff696e979327f8fe73e616a6985200c4",
+          "size": 9392634,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Mollusk Voice Changer_1.1.0_win/Mollusk Voice Changer.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

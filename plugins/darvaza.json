@@ -1,0 +1,52 @@
+{
+  "id": "darvaza",
+  "name": "Darvaza",
+  "developer": "Igor Zinken",
+  "description": "Multichannel gate that, when it closes, spits back a distorted version of your input.",
+  "repo": "https://github.com/igorski/darvaza",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "gate",
+    "creative"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Darvaza"
+  ],
+  "versions": [
+    {
+      "version": "1.0.3",
+      "date": "2025-05-15",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_windows.zip",
+          "sha256": "4cba4dfe19429f38e9b6e20746082a1a80403ade0045e2d19e7bb95b3339a5cc",
+          "size": 2606227,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Windows 64-Bit/VST3/Darvaza.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_macos.zip",
+          "sha256": "456f6b1c5216e290dbfcdb6b0c1e8f38ce499479deffb4f146bdc3b1253e843e",
+          "size": 9695869,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/Darvaza.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://www.igorski.nl/download/darvaza"
+}
