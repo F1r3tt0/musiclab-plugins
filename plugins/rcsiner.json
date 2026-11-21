@@ -1,0 +1,39 @@
+{
+  "id": "rcsiner",
+  "name": "RCSiner",
+  "developer": "RCJacH",
+  "description": "Waveshaper based on sine curves.",
+  "repo": "https://github.com/RCJacH/RCSiner",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "waveshaper",
+    "distortion"
+  ],
+  "formats": [
+    "clap"
+  ],
+  "provides": [
+    "RCSiner"
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "date": "2025-08-29",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_MacOS.clap.zip",
+          "sha256": "7882f84c1667a46541e74f7b9892cc14e8bf5367330c5b82da29af09aa5ee1b0",
+          "size": 1108423,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "RCSiner.clap",
+              "format": "clap"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

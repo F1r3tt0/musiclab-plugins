@@ -1,0 +1,49 @@
+{
+  "id": "violaexmachina",
+  "name": "Viola Ex Machina",
+  "developer": "Peter Eastman",
+  "description": "Physically inspired synthesizer for bowed string instruments such as the viola.",
+  "repo": "https://github.com/peastman/ViolaExMachina",
+  "license": "LGPL-2.1",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "strings",
+    "physical-modeling"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Viola Ex Machina"
+  ],
+  "versions": [
+    {
+      "version": "1.4",
+      "date": "2026-05-24",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-mac-arm.zip",
+          "sha256": "042ece4408c085423abb72e71a30fa5ea52f6f639d8343d9d8345f49beede55a",
+          "size": 16770889,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Viola Ex Machina.component/Contents/PlugIns/Viola Ex Machina.clap",
+              "format": "clap"
+            },
+            {
+              "path": "viola_ex_machina.clap",
+              "format": "clap"
+            },
+            {
+              "path": "viola_ex_machina.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

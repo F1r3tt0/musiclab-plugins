@@ -1,0 +1,40 @@
+{
+  "id": "macro-oscillator",
+  "name": "Macro OSC",
+  "developer": "Reece Mitchell",
+  "description": "Plugin version of the Braids macro oscillator.",
+  "repo": "https://github.com/Reece4000/macro_oscillator",
+  "license": "AGPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "synth",
+    "oscillator",
+    "eurorack"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Macro OSC"
+  ],
+  "versions": [
+    {
+      "version": "0.2.0",
+      "date": "2026-10-17",
+      "assets": {
+        "macos-arm64": {
+          "url": "https://github.com/Reece4000/macro_oscillator/releases/download/v0.2.0/MacroOSC-macOS-arm64-v0.2.0-vst3.zip",
+          "sha256": "dae072b143213515ad7d322afe42f366ef8cd29b62cd9d836ee525cc1ca081e6",
+          "size": 2156239,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Macro OSC.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
