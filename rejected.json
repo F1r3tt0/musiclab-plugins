@@ -84,5 +84,13 @@
   { "repo": "khrykin/BlackBird", "reason": "latest release ships installers only (.exe, .pkg)" },
   { "repo": "killbizz/Biztortion", "reason": "latest release ships installers only (.exe, .pkg)" },
   { "repo": "klknn/kdr", "reason": "latest release has no downloadable assets" },
-  { "repo": "kevin-jenkins/PlugNspectr", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" }
+  { "repo": "kevin-jenkins/PlugNspectr", "reason": "the release archives list bundle files with Windows backslash paths, so they cannot be unpacked reliably" },
+  { "repo": "klknn/synth2", "reason": "no release in the last three years (latest 2021-08-26)" },
+  { "repo": "kongsjorden/octal", "reason": "latest release ships installers only (.pkg)" },
+  { "repo": "kushview/retuner", "reason": "latest release ships installers only (.exe, .pkg, .deb)" },
+  { "repo": "kushview/roboverb", "reason": "no release in the last three years (latest 2019-08-15)" },
+  { "repo": "Lubba-64/node_sound", "reason": "repository is archived" },
+  { "repo": "lucianoiam/castello", "reason": "no release in the last three years (latest 2022-12-09)" },
+  { "repo": "lucianoiam/consul", "reason": "no release in the last three years (latest 2022-12-09)" },
+  { "repo": "lukemcraig/DAFx19-Gamelanizer", "reason": "no release in the last three years (latest 2019-07-13)" }
 ]

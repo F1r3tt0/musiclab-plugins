@@ -1,0 +1,77 @@
+{
+  "id": "metrefiddler",
+  "name": "MetreFiddler",
+  "developer": "Leon Focker",
+  "description": "Creative MIDI processor that reshapes notes according to metre.",
+  "repo": "https://github.com/Leon-Focker/MetreFiddler",
+  "license": "GPL-3.0",
+  "kind": "midi",
+  "tags": [
+    "midi",
+    "rhythm",
+    "creative"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "MetreFiddler"
+  ],
+  "versions": [
+    {
+      "version": "1.4.0",
+      "date": "2026-05-08",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-windows-latest-x86_64.zip",
+          "sha256": "805212ade5ad6f9c4243499b72b92fb78808844f3f9ed8caa464fb5533af8cd1",
+          "size": 18595084,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "binary-windows-latest-x86_64/bundled/MetreFiddler.clap",
+              "format": "clap"
+            },
+            {
+              "path": "binary-windows-latest-x86_64/bundled/MetreFiddler.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-macos-latest-aarch64.zip",
+          "sha256": "86573fd38647f5af8c95e7ae1293410047b64b30d005fde1333d1d9f3408e10c",
+          "size": 157287048,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "binary-macos-latest-aarch64/bundled/MetreFiddler.clap",
+              "format": "clap"
+            },
+            {
+              "path": "binary-macos-latest-aarch64/bundled/MetreFiddler.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-ubuntu-latest-x86_64.zip",
+          "sha256": "24ffa825c63d37c28cb45af794ff86c4ac8b8cbfe6be458f2f6db32a9160c188",
+          "size": 19227084,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "binary-ubuntu-latest-x86_64/bundled/MetreFiddler.clap",
+              "format": "clap"
+            },
+            {
+              "path": "binary-ubuntu-latest-x86_64/bundled/MetreFiddler.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ampforge",
+  "name": "AmpForge",
+  "developer": "Atakan Unsever",
+  "description": "Guitar amp simulator with a reorderable chain of amp, cabinet impulse response, drive, modulation and delay or reverb.",
+  "repo": "https://github.com/Loursy/AmpForge",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "guitar",
+    "amp-sim",
+    "pedalboard",
+    "cabinet"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "ampforge_main"
+  ],
+  "versions": [
+    {
+      "version": "0.5.0",
+      "date": "2026-10-28",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/Loursy/AmpForge/releases/download/v0.5.0/AmpForge-0.5.0-macos.zip",
+          "sha256": "e58f166ece181149ceb6243d2f8b2ee41ac5a8550fb10bbc5047534c6ef4259e",
+          "size": 4009842,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "AmpForge-0.5.0-macos/bin/ampforge_main.clap",
+              "format": "clap"
+            },
+            {
+              "path": "AmpForge-0.5.0-macos/bin/ampforge_main.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/Loursy/AmpForge/releases/download/v0.5.0/AmpForge-0.5.0-linux-x86_64.tar.gz",
+          "sha256": "ae132b94b3752f36e6e4d4f266dc330d2bfcc48469d1593ec5bd70076709b188",
+          "size": 40789371,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "AmpForge-0.5.0-linux-x86_64/bin/ampforge_main.clap",
+              "format": "clap"
+            },
+            {
+              "path": "AmpForge-0.5.0-linux-x86_64/bin/ampforge_main.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

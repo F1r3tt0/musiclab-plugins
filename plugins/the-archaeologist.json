@@ -1,0 +1,40 @@
+{
+  "id": "the-archaeologist",
+  "name": "The Archaeologist",
+  "developer": "larrymarmalade",
+  "description": "Generative resampler that records your session and replays pieces of it back, like a memory instrument.",
+  "repo": "https://github.com/larrymarmalade/the-archaeologist",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "resampler",
+    "generative",
+    "creative"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "The Archaeologist"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-06-01",
+      "assets": {
+        "macos-universal": {
+          "url": "https://github.com/larrymarmalade/the-archaeologist/releases/download/v0.1.0/TheArchaeologist-v0.1.0-macOS-universal.zip",
+          "sha256": "cfc72eee559798ba053a9cf09746934e4c211d0e178efed59332537b73481d3d",
+          "size": 10890305,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "TheArchaeologist/The Archaeologist.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

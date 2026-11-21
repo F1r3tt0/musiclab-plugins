@@ -1,0 +1,200 @@
+{
+  "id": "sparta",
+  "name": "SPARTA",
+  "developer": "Leo McCormack",
+  "description": "Collection of spatial audio plugins for ambisonics, binaural rendering, panning, decoding and analysis.",
+  "repo": "https://github.com/leomccormack/SPARTA",
+  "license": "GPL-3.0",
+  "kind": "bundle",
+  "tags": [
+    "spatial",
+    "ambisonics",
+    "binaural"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "HOSIRR",
+    "UltrasonicSuperHearing",
+    "compass_6DoF",
+    "compass_binaural",
+    "compass_binauralVR",
+    "compass_decoder",
+    "compass_gravitator",
+    "compass_sidechain",
+    "compass_spatedit",
+    "compass_tracker",
+    "compass_upmixer",
+    "cropac_binaural",
+    "hades_renderer",
+    "hodirac_binaural",
+    "hodirac_decoder",
+    "hodirac_upmixer",
+    "sparta_6DoFconv",
+    "sparta_ambiBIN",
+    "sparta_ambiDEC",
+    "sparta_ambiDRC",
+    "sparta_ambiENC",
+    "sparta_ambiRoomSim",
+    "sparta_array2sh",
+    "sparta_beamformer",
+    "sparta_binauraliser",
+    "sparta_binauraliser_nf",
+    "sparta_decorrelator",
+    "sparta_matrixconv",
+    "sparta_multiconv",
+    "sparta_panner",
+    "sparta_pitchShifter",
+    "sparta_rotator",
+    "sparta_spreader"
+  ],
+  "versions": [
+    {
+      "version": "1.8.2",
+      "date": "2026-01-25",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Linux_SPARTA_VST3_2026_01_25_v1.8.2.zip",
+          "sha256": "a5a64ceb4534950ede09101358d6b639450713ca4d60d467852635abb0dd3310",
+          "size": 160563668,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/HOSIRR.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/UltrasonicSuperHearing.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_6DoF.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_binaural.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_binauralVR.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_decoder.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_gravitator.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_sidechain.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_spatedit.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_tracker.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/compass_upmixer.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/cropac_binaural.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/hades_renderer.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/hodirac_binaural.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/hodirac_decoder.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/hodirac_upmixer.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_6DoFconv.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiBIN.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiDEC.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiDRC.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiENC.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_ambiRoomSim.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_array2sh.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_beamformer.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_binauraliser.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_binauraliser_nf.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_decorrelator.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_matrixconv.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_multiconv.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_panner.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_pitchShifter.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_rotator.vst3",
+              "format": "vst3"
+            },
+            {
+              "path": "Linux_SPARTA_VST3_2026_01_25_v1.8.2/sparta_spreader.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
