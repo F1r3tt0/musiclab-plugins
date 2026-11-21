@@ -1,0 +1,65 @@
+{
+  "id": "unravel-vst",
+  "name": "Unravel",
+  "developer": "ZQ",
+  "description": "Splits a sound into its tonal and noise parts with spectral decomposition.",
+  "repo": "https://github.com/themightyzq/unravel-vst",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "spectral",
+    "tonal",
+    "noise",
+    "separation"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Unravel"
+  ],
+  "versions": [
+    {
+      "version": "1.6.0",
+      "date": "2026-10-02",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-Windows.zip",
+          "sha256": "f3b806cd0c7f007f520162f3ce4f6e25251fd627b2178bab963ccb189a9e7b80",
+          "size": 5250849,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Unravel-Windows/Unravel.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-macOS.zip",
+          "sha256": "6ad83e6b2689dce3fddbb0306e21a121ab1d06133f70d556402efde884b66305",
+          "size": 24778061,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Unravel-macOS/Unravel.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-Linux.zip",
+          "sha256": "838524f642246faea8225fd17688391f4285f8709b41fec1f5082d13af406f46",
+          "size": 4561876,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "Unravel-Linux/Unravel.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

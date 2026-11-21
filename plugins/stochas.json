@@ -1,0 +1,46 @@
+{
+  "id": "stochas",
+  "name": "Stochas",
+  "developer": "Surge Synthesizer Team",
+  "description": "Stochas sequencer: a step sequencer with probability for each step.",
+  "repo": "https://github.com/surge-synthesizer/stochas",
+  "license": "GPL-3.0",
+  "kind": "midi",
+  "tags": [
+    "sequencer",
+    "probability",
+    "midi"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Stochas"
+  ],
+  "versions": [
+    {
+      "version": "1.4.0",
+      "date": "2026-11-19",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/surge-synthesizer/stochas/releases/download/v1.4.0/stochas-1.4.0.bd4e22c.linux-x86_64.tgz",
+          "sha256": "02d32f7cf6b4a18e6cc42f61f1b4a6da6bb025b535ba7f65a86dbc6fb4e81a5a",
+          "size": 13189426,
+          "archive": "tar.gz",
+          "bundles": [
+            {
+              "path": "Stochas/Stochas.clap",
+              "format": "clap"
+            },
+            {
+              "path": "Stochas/Stochas.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://stochas.org"
+}

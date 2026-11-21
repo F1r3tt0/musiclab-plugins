@@ -1,0 +1,43 @@
+{
+  "id": "spectralshift",
+  "name": "Spectral Shift",
+  "developer": "Kyle Ramsey",
+  "description": "Pitch shifter built on the Signalsmith Stretch library.",
+  "repo": "https://github.com/trencrumb/SpectralShift",
+  "license": "MIT",
+  "kind": "effect",
+  "tags": [
+    "pitch-shift"
+  ],
+  "formats": [
+    "clap",
+    "vst3"
+  ],
+  "provides": [
+    "Spectral Shift"
+  ],
+  "versions": [
+    {
+      "version": "0.1.1",
+      "date": "2026-01-12",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Linux.zip",
+          "sha256": "86a206ad864a1c9e3c389a19959c6ebd93b2a035af699b4da94e77dd845f203e",
+          "size": 8521431,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "CLAP/Spectral Shift.clap",
+              "format": "clap"
+            },
+            {
+              "path": "VST3/Spectral Shift.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

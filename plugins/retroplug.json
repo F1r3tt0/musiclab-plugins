@@ -1,0 +1,78 @@
+{
+  "id": "retroplug",
+  "name": "RetroPlug",
+  "developer": "Tom Yaxley",
+  "description": "Front end for the SameBoy Game Boy and Mesen NES emulators, aimed at making music; runs standalone or as a plugin.",
+  "repo": "https://github.com/tommitytom/RetroPlug",
+  "license": "MIT",
+  "kind": "instrument",
+  "tags": [
+    "gameboy",
+    "nes",
+    "chiptune",
+    "emulator"
+  ],
+  "formats": [
+    "clap"
+  ],
+  "provides": [
+    "RetroPlug",
+    "retroplug"
+  ],
+  "versions": [
+    {
+      "version": "0.7.4",
+      "date": "2026-08-07",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/tommitytom/RetroPlug/releases/download/v0.7.4/retroplug-v0.7.4-windows-x86_64-clap.zip",
+          "sha256": "e27d5a751f823c5183dc20d79121a5710844594944a8f7f617479ef32eee3653",
+          "size": 8538542,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "retroplug-v0.7.4-windows-x86_64-clap/RetroPlug.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "macos-universal": {
+          "url": "https://github.com/tommitytom/RetroPlug/releases/download/v0.7.4/retroplug-v0.7.4-macos-universal-clap.zip",
+          "sha256": "fb3ffbc89c077f0437d05ba662d5099ec83e52e64d30b120080bc70cac389b9b",
+          "size": 17823110,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "retroplug-v0.7.4-macos-universal-clap/RetroPlug.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/tommitytom/RetroPlug/releases/download/v0.7.4/retroplug-v0.7.4-linux-x86_64-clap.zip",
+          "sha256": "ae7799c9ba690439495c1e1eb87d2fc51c49f22070ce0d76070d1d9bb2c9f5bf",
+          "size": 10762121,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "retroplug-v0.7.4-linux-x86_64-clap/retroplug.clap",
+              "format": "clap"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/tommitytom/RetroPlug/releases/download/v0.7.4/retroplug-v0.7.4-linux-aarch64-clap.zip",
+          "sha256": "076cb40aa4baa3fb2134d1a22e677c7f9dae9a846a6812076b993ace3980a16a",
+          "size": 10411172,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "retroplug-v0.7.4-linux-aarch64-clap/retroplug.clap",
+              "format": "clap"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

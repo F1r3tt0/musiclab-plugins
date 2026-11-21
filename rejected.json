@@ -121,5 +121,12 @@
   { "repo": "shaduzlabs/throb", "reason": "no release in the last three years (latest 2017-04-20)" },
   { "repo": "sjoerdvankreel/firefly-synth", "reason": "latest release has no downloadable assets" },
   { "repo": "sonosaurus/sonobus", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
-  { "repo": "Speechrezz/Le-Phonk", "reason": "latest release ships installers only (.exe, .pkg)" }
+  { "repo": "Speechrezz/Le-Phonk", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "SugoiAudioTech/BlindCard", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "surge-synthesizer/releases-xt", "reason": "Surge XT is already listed (surge-xt); this is only its binary releases repository" },
+  { "repo": "szkkng/jr-granular", "reason": "latest release ships installers only (.exe, .pkg)" },
+  { "repo": "tgalpha/ActivityTimer", "reason": "no release in the last three years (latest 2022-09-05)" },
+  { "repo": "Thiagohgl/DyERS-dynamic-resonance-suppressor", "reason": "latest release has no usable VST3/CLAP zip or tar.gz archive for a supported platform" },
+  { "repo": "tobanteAudio/modEQ", "reason": "no release in the last three years (latest 2019-05-18)" },
+  { "repo": "Uberton/Uberton", "reason": "latest release ships installers only (.exe, .pkg)" }
 ]

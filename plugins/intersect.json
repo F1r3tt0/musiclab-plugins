@@ -1,0 +1,77 @@
+{
+  "id": "intersect",
+  "name": "INTERSECT",
+  "developer": "tucktuckg00se",
+  "description": "Non-destructive sample slicer with time stretching and separate parameters for every slice.",
+  "repo": "https://github.com/tucktuckg00se/INTERSECT",
+  "license": "GPL-3.0",
+  "kind": "instrument",
+  "tags": [
+    "sampler",
+    "slicer",
+    "time-stretch"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "INTERSECT"
+  ],
+  "versions": [
+    {
+      "version": "0.20.0",
+      "date": "2026-11-15",
+      "assets": {
+        "windows-x64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-Windows-x64.zip",
+          "sha256": "f301ef1f2e1deaa9bf7b9272c5c6977d10345603df680db2ea43468cd9fad30b",
+          "size": 8168503,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "INTERSECT.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "macos-arm64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-macOS-arm64.zip",
+          "sha256": "c430072c25ad825f7c6725d161a21340e7a31fee6af5634dc19176e3cb9a9606",
+          "size": 10734483,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "INTERSECT.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-x64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-Linux-x64.zip",
+          "sha256": "e36edc78e3973039f6978fd726c414604ced12acfaf60af9496541e835fbc197",
+          "size": 9546747,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "INTERSECT.vst3",
+              "format": "vst3"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-Linux-arm64.zip",
+          "sha256": "2b60eaf0de3788e13cf1f9b68f2feed98e4c551a02bbc7ef8af4a3757187fb25",
+          "size": 9479262,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "INTERSECT.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "homepage": "https://tucktuckg00se.github.io/INTERSECT/"
+}

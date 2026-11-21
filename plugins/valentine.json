@@ -1,0 +1,39 @@
+{
+  "id": "valentine",
+  "name": "Valentine",
+  "developer": "tote-bag-labs",
+  "description": "Open-source compressor made to pump and breathe.",
+  "repo": "https://github.com/tote-bag-labs/valentine",
+  "license": "GPL-3.0",
+  "kind": "effect",
+  "tags": [
+    "compressor",
+    "dynamics"
+  ],
+  "formats": [
+    "vst3"
+  ],
+  "provides": [
+    "Valentine"
+  ],
+  "versions": [
+    {
+      "version": "1.0.1",
+      "date": "2024-04-27",
+      "assets": {
+        "linux-x64": {
+          "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-Linux.zip",
+          "sha256": "dcb5960d882a294abf7a8af8796b9d9b2d647d38020e2a944c26070a4372e62e",
+          "size": 14473485,
+          "archive": "zip",
+          "bundles": [
+            {
+              "path": "VST3/Valentine.vst3",
+              "format": "vst3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
